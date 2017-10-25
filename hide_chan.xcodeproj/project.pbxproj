@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DB71C171FA0E4B90034C0AF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB71C161FA0E4B90034C0AF /* AVFoundation.framework */; };
+		6DB71C191FA0E4BF0034C0AF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB71C181FA0E4BF0034C0AF /* AVKit.framework */; };
 		6DDA0FE91FA0536D0003F6A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA0FE81FA0536D0003F6A0 /* AppDelegate.swift */; };
 		6DDA0FEB1FA0536D0003F6A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA0FEA1FA0536D0003F6A0 /* ViewController.swift */; };
 		6DDA0FEE1FA0536D0003F6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA0FEC1FA0536D0003F6A0 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6DB71C161FA0E4B90034C0AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6DB71C181FA0E4BF0034C0AF /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		6DDA0FE51FA0536D0003F6A0 /* hide_chan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hide_chan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDA0FE81FA0536D0003F6A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DDA0FEA1FA0536D0003F6A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB71C191FA0E4BF0034C0AF /* AVKit.framework in Frameworks */,
+				6DB71C171FA0E4B90034C0AF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DB71C151FA0E4B90034C0AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB71C181FA0E4BF0034C0AF /* AVKit.framework */,
+				6DB71C161FA0E4B90034C0AF /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6DDA0FDC1FA0536D0003F6A0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,7 @@
 				6DDA0FFC1FA0536E0003F6A0 /* hide_chanTests */,
 				6DDA10071FA0536E0003F6A0 /* hide_chanUITests */,
 				6DDA0FE61FA0536D0003F6A0 /* Products */,
+				6DB71C151FA0E4B90034C0AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -359,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

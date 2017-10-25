@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LyESElFm88qveE5t0n9EOEUPwcc=
+			k5Y+ji3YqRsZIkqSJo9HezOL1lc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +26,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZItnfCWMnNA8oYQkRpo74nFlZ3E=
+			GBMpRX6D3k7gnUZhJyXEIywosQs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/AVPlayerViewController-lT1-te-pm8.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cKOGNGmoDNEXtjT2ekWUpkYR8Ao=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +44,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5O/Oo3sdULN33ujv9CSM662j5Ag=
+			ii4yqowY4OvMxJTxasyBH2tbOGA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -44,16 +53,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rwWD0wbO+DwVMHZxdy3jQIGB6I4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/avkitPlayerViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Cb8mrDyrifdH0gJhWeBLJHaGCs4=
+			JBysNJ8yYhQIAlzUGhPIR9yq9ZE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KWSTNbgp9tXfHcKiRhdRiFe+c2Q=
+			BSB8L7fB3IN1gcA+neNuVsbypy0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -314,7 +314,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Zwz1cKKUUib2a7MkcYsLZHVdl7U=
+		IUHcdjOBcbJQZnhL4u1mYH7+zak=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -399,11 +399,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LyESElFm88qveE5t0n9EOEUPwcc=
+			k5Y+ji3YqRsZIkqSJo9HezOL1lc=
 			</data>
 			<key>hash2</key>
 			<data>
-			LVtyMpU0a4KZXJNbK6HDL5mB3Sgipaueqg0mqL8xXZE=
+			14ip9mVXk+jddpadryCDwRrCHbCj6qhTRR3tkTe7mbA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -425,11 +425,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZItnfCWMnNA8oYQkRpo74nFlZ3E=
+			GBMpRX6D3k7gnUZhJyXEIywosQs=
 			</data>
 			<key>hash2</key>
 			<data>
-			9mhWNEShwFsqplRY2ItmNGrjKNZ68C3/6U8OwD2YDBw=
+			MbxaP77LTe/pfnEqYxnYZTpuMWtcLn7awqy3P01eFYs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/AVPlayerViewController-lT1-te-pm8.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cKOGNGmoDNEXtjT2ekWUpkYR8Ao=
+			</data>
+			<key>hash2</key>
+			<data>
+			1HpyLc+RqlbtocJXbUMv2wRpOnwcxkvabMQ5H/YVT1w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -438,11 +451,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5O/Oo3sdULN33ujv9CSM662j5Ag=
+			ii4yqowY4OvMxJTxasyBH2tbOGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			qhUZvS12M32XzIaL05i57SxHhSJcGWdRDq5fKVQDhf4=
+			m7i8c49oRuHvIub36W2UlNZEuYtx3x0MjJsfGtrFh6w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -451,24 +464,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rwWD0wbO+DwVMHZxdy3jQIGB6I4=
+			JBysNJ8yYhQIAlzUGhPIR9yq9ZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			bX+gj5yzECwq3AG3ZSrPoYEDu2N7Mt/v8GZhhRuQGjU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/avkitPlayerViewController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Cb8mrDyrifdH0gJhWeBLJHaGCs4=
-			</data>
-			<key>hash2</key>
-			<data>
-			l/Wa8qDqBdH+tgW43S6GxiOp9VK1EmQQs8Vo60GVb5k=
+			RjIZZDd6YuYHv8dOUPU0KUGemr4aLz8UBtLZhKhmLXs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -477,11 +477,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KWSTNbgp9tXfHcKiRhdRiFe+c2Q=
+			BSB8L7fB3IN1gcA+neNuVsbypy0=
 			</data>
 			<key>hash2</key>
 			<data>
-			6kOmhcwYgj31v9QV7kFdXxTC7zXN455DYBclcYnuuvk=
+			Igr6LLNeRm7VXP/dxh/jTP1m1eySANZUS7J+6C6Zo/g=
 			</data>
 			<key>optional</key>
 			<true/>
