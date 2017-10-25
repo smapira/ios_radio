@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "a3a0edd25bcf9206f7e85354f900e2f8"
+build_time: [562223375, 267988000]
+inputs:
+  "/Users/bookair17/Desktop/hide_chan/hide_chanUITests/hide_chanUITests.swift": [562223214, 0]
