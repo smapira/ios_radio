@@ -23,18 +23,11 @@ class hide_chanTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-//	
-//    func testLabelTitle() {
-//		let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
-//		let viewController = storyBoard.instantiateViewController(withIdentifier: "viewController") as? ViewController
-//		viewController?.viewDidLoad()
-//		XCTAssertEqual(viewController?.label?.text, "Hello, World.")
-//	}
 	
 	func testAVKitPlayerViewController() {
 		let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
-		let avkitPlayerViewController = storyBoard.instantiateViewController(withIdentifier: "avkitPlayerViewController") as? AVPlayerViewController
+		let avkitPlayerViewController = storyBoard.instantiateViewController(withIdentifier: "avkitPlayerViewController") as? PlayerViewController
 		avkitPlayerViewController?.viewDidLoad()
-//		XCTAssertEqual(avkitPlayerViewController?.label?.text, "Hello, World.")
+		XCTAssertEqual(avkitPlayerViewController?.radioURL?.absoluteString, "https://devimages.apple.com.edgekey.net/samplecode/avfoundationMedia/AVFoundationQueuePlayer_HLS2/master.m3u8")
 	}
 }

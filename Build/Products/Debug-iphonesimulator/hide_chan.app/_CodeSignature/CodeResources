@@ -31,20 +31,11 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/AVPlayerViewController-dg8-vi-wbx.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lJeIOgDpgrVqmXv4l0IQtdLcNvE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b6DodgB/c8m5X0a0bYduQvux0To=
+			5O/Oo3sdULN33ujv9CSM662j5Ag=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,7 +44,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zrp932VQIEiSMaVQhMCUR5RGvxQ=
+			rwWD0wbO+DwVMHZxdy3jQIGB6I4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/avkitPlayerViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cb8mrDyrifdH0gJhWeBLJHaGCs4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KeaeKFs9m4FsahvqC65MLXLCcSI=
+			KWSTNbgp9tXfHcKiRhdRiFe+c2Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -314,11 +314,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		c2jW/k0c2aeNm2tazZUgJwGi4NE=
+		Zwz1cKKUUib2a7MkcYsLZHVdl7U=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PlugIns/hide_chanTests.xctest/Frameworks/libswiftAVFoundation.dylib</key>
+		<data>
+		C222uRCAIsR5Zhj9EwdQIxCayec=
 		</data>
 		<key>PlugIns/hide_chanTests.xctest/Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -374,11 +378,11 @@
 		</data>
 		<key>PlugIns/hide_chanTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		GWLk4vVrbextqA3ZNlxByEL22es=
+		Y6CU9V4H+BoLSRo9weKySkvW40E=
 		</data>
 		<key>PlugIns/hide_chanTests.xctest/hide_chanTests</key>
 		<data>
-		hVQxUX0+tZ/AROPfSg//gLTaSTE=
+		EjY3uetX0AVTkicIMyftUgyQKyA=
 		</data>
 		<key>PlugIns/hide_chanTests.xctest/libswiftRemoteMirror.dylib</key>
 		<data>
@@ -430,28 +434,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/AVPlayerViewController-dg8-vi-wbx.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			lJeIOgDpgrVqmXv4l0IQtdLcNvE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Rk3d6YWUUtP7DC0wLsuRkQzKmKnLuu+rUADtV77bw7Q=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b6DodgB/c8m5X0a0bYduQvux0To=
+			5O/Oo3sdULN33ujv9CSM662j5Ag=
 			</data>
 			<key>hash2</key>
 			<data>
-			96+BxDC+do9Tce55TGEvLAtcojmn9I8Tq8OjzH6P6cE=
+			qhUZvS12M32XzIaL05i57SxHhSJcGWdRDq5fKVQDhf4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -460,11 +451,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zrp932VQIEiSMaVQhMCUR5RGvxQ=
+			rwWD0wbO+DwVMHZxdy3jQIGB6I4=
 			</data>
 			<key>hash2</key>
 			<data>
-			f86ecKRx4yfijgWiY6pkcZC8IFk2akbHZpJQLxXjU/8=
+			bX+gj5yzECwq3AG3ZSrPoYEDu2N7Mt/v8GZhhRuQGjU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/avkitPlayerViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cb8mrDyrifdH0gJhWeBLJHaGCs4=
+			</data>
+			<key>hash2</key>
+			<data>
+			l/Wa8qDqBdH+tgW43S6GxiOp9VK1EmQQs8Vo60GVb5k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -473,11 +477,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KeaeKFs9m4FsahvqC65MLXLCcSI=
+			KWSTNbgp9tXfHcKiRhdRiFe+c2Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			vkkDGne7Q6zDAYm9G0bJ8vpmav93SXR8Hke0UWT0FJ4=
+			6kOmhcwYgj31v9QV7kFdXxTC7zXN455DYBclcYnuuvk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1149,6 +1153,17 @@
 			8RDE9MC01hTi9gjy37WvnOSra3n0AOzf9Uc981/9PmE=
 			</data>
 		</dict>
+		<key>PlugIns/hide_chanTests.xctest/Frameworks/libswiftAVFoundation.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C222uRCAIsR5Zhj9EwdQIxCayec=
+			</data>
+			<key>hash2</key>
+			<data>
+			aucDui1YJLfqckpTnaQ5xLKJEO+FB9VapTI2Kfdh99o=
+			</data>
+		</dict>
 		<key>PlugIns/hide_chanTests.xctest/Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -1296,22 +1311,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GWLk4vVrbextqA3ZNlxByEL22es=
+			Y6CU9V4H+BoLSRo9weKySkvW40E=
 			</data>
 			<key>hash2</key>
 			<data>
-			s/4qBISMvMXD57I851gmkl6j1EU2OTmCvDXWO2PbLVE=
+			dbowwXgOfGmZ4vvRDWQjHqA5Q70eQng9MUbBgpiSwr4=
 			</data>
 		</dict>
 		<key>PlugIns/hide_chanTests.xctest/hide_chanTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hVQxUX0+tZ/AROPfSg//gLTaSTE=
+			EjY3uetX0AVTkicIMyftUgyQKyA=
 			</data>
 			<key>hash2</key>
 			<data>
-			7ODJi+L0wkS5/pZI6NtYUJ3+xv4f1oawWLd+ZVelWlg=
+			9o8xtP5bS8MKNIU191fZ6K26eps0oIn4imxmxoXiyUw=
 			</data>
 		</dict>
 		<key>PlugIns/hide_chanTests.xctest/libswiftRemoteMirror.dylib</key>

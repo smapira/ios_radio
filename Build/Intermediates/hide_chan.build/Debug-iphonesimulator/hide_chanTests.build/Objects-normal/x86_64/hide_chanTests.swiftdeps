@@ -6,88 +6,88 @@ provides-nominal:
 provides-member:
 - ["C14hide_chanTests14hide_chanTests", ""]
 provides-dynamic-lookup:
-- "testLabelTitle"
 - "setUp"
 - "tearDown"
+- "testAVKitPlayerViewController"
 depends-top-level:
+- !private "UIStoryboard"
 - "hide_chanTests"
-- !private "ViewController"
+- "XCTestCase"
 - !private "Bundle"
 - !private "StringLiteralType"
-- !private "UIStoryboard"
-- !private "XCTAssertEqual"
+- !private "PlayerViewController"
 - "CastingPrecedence"
-- "XCTestCase"
+- !private "XCTAssertEqual"
 depends-member:
+- !private ["CSo22AVPlayerViewController", "radioURL"]
+- !private ["CSo22AVPlayerViewController", "viewDidLoad"]
 - !private ["Ps9AnyObject", "Bundle"]
 - !private ["Ps9AnyObject", "UIStoryboard"]
 - !private ["Ps9AnyObject", "XCTAssertEqual"]
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "instantiateViewController"]
-- !private ["Ps9AnyObject", "label"]
 - !private ["Ps9AnyObject", "main"]
+- !private ["Ps9AnyObject", "radioURL"]
 - ["Ps9AnyObject", "setUp"]
 - ["Ps9AnyObject", "tearDown"]
-- ["Ps9AnyObject", "testLabelTitle"]
-- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "testAVKitPlayerViewController"]
 - !private ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
 - ["CSo6Bundle", "deinit"]
 - !private ["CSo6Bundle", "main"]
-- !private ["PSo15CALayerDelegate", "text"]
 - !private ["Ps7CVarArg", "Bundle"]
 - !private ["Ps7CVarArg", "UIStoryboard"]
 - !private ["Ps7CVarArg", "XCTAssertEqual"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "instantiateViewController"]
-- !private ["Ps7CVarArg", "label"]
 - !private ["Ps7CVarArg", "main"]
+- !private ["Ps7CVarArg", "radioURL"]
 - ["Ps7CVarArg", "setUp"]
 - ["Ps7CVarArg", "tearDown"]
-- ["Ps7CVarArg", "testLabelTitle"]
-- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "testAVKitPlayerViewController"]
 - !private ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "Bundle"]
 - !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
 - !private ["Ps28CustomDebugStringConvertible", "XCTAssertEqual"]
+- !private ["Ps28CustomDebugStringConvertible", "absoluteString"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "instantiateViewController"]
-- !private ["Ps28CustomDebugStringConvertible", "label"]
 - !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "radioURL"]
 - ["Ps28CustomDebugStringConvertible", "setUp"]
 - ["Ps28CustomDebugStringConvertible", "tearDown"]
-- ["Ps28CustomDebugStringConvertible", "testLabelTitle"]
-- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "testAVKitPlayerViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "absoluteString"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "Bundle"]
 - !private ["Ps23CustomStringConvertible", "UIStoryboard"]
 - !private ["Ps23CustomStringConvertible", "XCTAssertEqual"]
+- !private ["Ps23CustomStringConvertible", "absoluteString"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "instantiateViewController"]
-- !private ["Ps23CustomStringConvertible", "label"]
 - !private ["Ps23CustomStringConvertible", "main"]
+- !private ["Ps23CustomStringConvertible", "radioURL"]
 - ["Ps23CustomStringConvertible", "setUp"]
 - ["Ps23CustomStringConvertible", "tearDown"]
-- ["Ps23CustomStringConvertible", "testLabelTitle"]
-- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "testAVKitPlayerViewController"]
 - !private ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "Bundle"]
 - !private ["Ps9Equatable", "UIStoryboard"]
 - !private ["Ps9Equatable", "XCTAssertEqual"]
+- !private ["Ps9Equatable", "absoluteString"]
 - !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "instantiateViewController"]
-- !private ["Ps9Equatable", "label"]
 - !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "radioURL"]
 - ["Ps9Equatable", "setUp"]
 - ["Ps9Equatable", "tearDown"]
-- ["Ps9Equatable", "testLabelTitle"]
-- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "testAVKitPlayerViewController"]
 - !private ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
@@ -97,55 +97,56 @@ depends-member:
 - !private ["Ps8Hashable", "Bundle"]
 - !private ["Ps8Hashable", "UIStoryboard"]
 - !private ["Ps8Hashable", "XCTAssertEqual"]
+- !private ["Ps8Hashable", "absoluteString"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "instantiateViewController"]
-- !private ["Ps8Hashable", "label"]
 - !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "radioURL"]
 - ["Ps8Hashable", "setUp"]
 - ["Ps8Hashable", "tearDown"]
-- ["Ps8Hashable", "testLabelTitle"]
-- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "testAVKitPlayerViewController"]
 - !private ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
 - !private ["PSo8NSCoding", "init"]
-- !private ["PSo8NSCoding", "label"]
-- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "radioURL"]
 - !private ["PSo8NSCoding", "viewDidLoad"]
 - !private ["PSo9NSCopying", "init"]
-- !private ["PSo26NSExtensionRequestHandling", "label"]
+- !private ["PSo26NSExtensionRequestHandling", "radioURL"]
 - !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - !private ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSObject", "Bundle"]
+- !private ["CSo8NSObject", "PlayerViewController"]
 - !private ["CSo8NSObject", "UIStoryboard"]
-- !private ["CSo8NSObject", "ViewController"]
 - !private ["CSo8NSObject", "XCTAssertEqual"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "instantiateViewController"]
-- !private ["CSo8NSObject", "label"]
 - !private ["CSo8NSObject", "main"]
+- !private ["CSo8NSObject", "radioURL"]
 - ["CSo8NSObject", "setUp"]
 - ["CSo8NSObject", "tearDown"]
-- ["CSo8NSObject", "testLabelTitle"]
-- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "testAVKitPlayerViewController"]
 - !private ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "Bundle"]
 - !private ["PSo16NSObjectProtocol", "UIStoryboard"]
 - !private ["PSo16NSObjectProtocol", "XCTAssertEqual"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "instantiateViewController"]
-- !private ["PSo16NSObjectProtocol", "label"]
 - !private ["PSo16NSObjectProtocol", "main"]
+- !private ["PSo16NSObjectProtocol", "radioURL"]
 - ["PSo16NSObjectProtocol", "setUp"]
 - ["PSo16NSObjectProtocol", "tearDown"]
-- ["PSo16NSObjectProtocol", "testLabelTitle"]
-- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "testAVKitPlayerViewController"]
 - !private ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - ["Sq", "deinit"]
+- ["C9hide_chan20PlayerViewController", "deinit"]
+- !private ["C9hide_chan20PlayerViewController", "radioURL"]
+- !private ["C9hide_chan20PlayerViewController", "viewDidLoad"]
+- !private ["P10Foundation20ReferenceConvertible", "absoluteString"]
 - ["V10ObjectiveC8Selector", "deinit"]
 - ["Vs12StaticString", "deinit"]
 - !private ["Vs12StaticString", "init"]
@@ -153,94 +154,80 @@ depends-member:
 - !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "init"]
-- !private ["PSo29UIAccessibilityIdentification", "text"]
-- !private ["PSo12UIAppearance", "text"]
-- !private ["PSo21UIAppearanceContainer", "label"]
-- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "radioURL"]
 - !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
-- !private ["PSo18UIContentContainer", "label"]
+- !private ["PSo18UIContentContainer", "radioURL"]
 - !private ["PSo18UIContentContainer", "viewDidLoad"]
-- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
-- !private ["PSo17UICoordinateSpace", "text"]
-- !private ["PSo13UIDynamicItem", "text"]
-- !private ["PSo18UIFocusEnvironment", "label"]
-- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "radioURL"]
 - !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
-- !private ["PSo11UIFocusItem", "text"]
-- !private ["CSo7UILabel", "text"]
-- !private ["CSo11UIResponder", "label"]
-- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "radioURL"]
 - !private ["CSo11UIResponder", "viewDidLoad"]
-- !private ["PSo30UIResponderStandardEditActions", "label"]
-- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "radioURL"]
 - !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
-- !private ["PSo16UIStateRestoring", "label"]
+- !private ["PSo16UIStateRestoring", "radioURL"]
 - !private ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["CSo12UIStoryboard", "deinit"]
 - !private ["CSo12UIStoryboard", "init"]
 - !private ["CSo12UIStoryboard", "instantiateViewController"]
-- !private ["PSo18UITraitEnvironment", "label"]
-- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "radioURL"]
 - !private ["PSo18UITraitEnvironment", "viewDidLoad"]
-- !private ["CSo6UIView", "text"]
 - ["CSo16UIViewController", "deinit"]
-- !private ["CSo16UIViewController", "label"]
+- !private ["CSo16UIViewController", "radioURL"]
 - !private ["CSo16UIViewController", "viewDidLoad"]
 - ["Su", "deinit"]
-- ["C9hide_chan14ViewController", "deinit"]
-- !private ["C9hide_chan14ViewController", "label"]
-- !private ["C9hide_chan14ViewController", "viewDidLoad"]
+- !private ["V10Foundation3URL", "absoluteString"]
 - !private ["CSo6XCTest", "Bundle"]
+- !private ["CSo6XCTest", "PlayerViewController"]
 - !private ["CSo6XCTest", "UIStoryboard"]
-- !private ["CSo6XCTest", "ViewController"]
 - !private ["CSo6XCTest", "XCTAssertEqual"]
 - ["CSo6XCTest", "init"]
 - ["CSo6XCTest", "setUp"]
 - ["CSo6XCTest", "tearDown"]
-- ["CSo6XCTest", "testLabelTitle"]
+- ["CSo6XCTest", "testAVKitPlayerViewController"]
 - !private ["CSo10XCTestCase", "Bundle"]
+- !private ["CSo10XCTestCase", "PlayerViewController"]
 - !private ["CSo10XCTestCase", "UIStoryboard"]
-- !private ["CSo10XCTestCase", "ViewController"]
 - !private ["CSo10XCTestCase", "XCTAssertEqual"]
 - ["CSo10XCTestCase", "deinit"]
 - ["CSo10XCTestCase", "init"]
 - ["CSo10XCTestCase", "setUp"]
 - ["CSo10XCTestCase", "tearDown"]
-- ["CSo10XCTestCase", "testLabelTitle"]
+- ["CSo10XCTestCase", "testAVKitPlayerViewController"]
 - ["CSo10XCTestCase", ""]
-- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "absoluteString"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "Bundle"]
 - !private ["Ps9_Hashable", "UIStoryboard"]
 - !private ["Ps9_Hashable", "XCTAssertEqual"]
+- !private ["Ps9_Hashable", "absoluteString"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "instantiateViewController"]
-- !private ["Ps9_Hashable", "label"]
 - !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "radioURL"]
 - ["Ps9_Hashable", "setUp"]
 - ["Ps9_Hashable", "tearDown"]
-- ["Ps9_Hashable", "testLabelTitle"]
-- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "testAVKitPlayerViewController"]
 - !private ["Ps9_Hashable", "viewDidLoad"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "absoluteString"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["C14hide_chanTests14hide_chanTests", "Bundle"]
+- !private ["C14hide_chanTests14hide_chanTests", "PlayerViewController"]
 - !private ["C14hide_chanTests14hide_chanTests", "UIStoryboard"]
-- !private ["C14hide_chanTests14hide_chanTests", "ViewController"]
 - !private ["C14hide_chanTests14hide_chanTests", "XCTAssertEqual"]
 - ["C14hide_chanTests14hide_chanTests", "deinit"]
 - ["C14hide_chanTests14hide_chanTests", "init"]
 - ["C14hide_chanTests14hide_chanTests", "setUp"]
 - ["C14hide_chanTests14hide_chanTests", "tearDown"]
-- ["C14hide_chanTests14hide_chanTests", "testLabelTitle"]
+- ["C14hide_chanTests14hide_chanTests", "testAVKitPlayerViewController"]
 depends-nominal:
+- !private "CSo22AVPlayerViewController"
 - "Ps9AnyObject"
 - "CSo6Bundle"
-- !private "PSo15CALayerDelegate"
 - "Ps7CVarArg"
 - !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
@@ -264,37 +251,31 @@ depends-nominal:
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
 - "Sq"
+- "C9hide_chan20PlayerViewController"
+- !private "P10Foundation20ReferenceConvertible"
 - "V10ObjectiveC8Selector"
 - "Vs12StaticString"
 - "SS"
 - !private "Ps16TextOutputStream"
 - !private "Ps20TextOutputStreamable"
-- !private "PSo29UIAccessibilityIdentification"
-- !private "PSo12UIAppearance"
 - !private "PSo21UIAppearanceContainer"
 - !private "PSo18UIContentContainer"
-- !private "PSo30UIContentSizeCategoryAdjusting"
-- !private "PSo17UICoordinateSpace"
-- !private "PSo13UIDynamicItem"
 - !private "PSo18UIFocusEnvironment"
-- !private "PSo11UIFocusItem"
-- !private "CSo7UILabel"
 - !private "CSo11UIResponder"
 - !private "PSo30UIResponderStandardEditActions"
 - !private "PSo16UIStateRestoring"
 - "CSo12UIStoryboard"
 - !private "PSo18UITraitEnvironment"
-- !private "CSo6UIView"
 - "CSo16UIViewController"
 - "Su"
-- "C9hide_chan14ViewController"
+- !private "V10Foundation3URL"
 - "CSo6XCTest"
 - "CSo10XCTestCase"
-- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
 - !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
 - !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
 - !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
 - !private "Ps21_ObjectiveCBridgeable"
@@ -341,5 +322,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/hide_chan.swiftmodule/x86_64.swiftmodule"
-interface-hash: "7f538ade56bc4d1dbf193251806d51d2"
+interface-hash: "2897ecd2c349f61688511a662ecffda8"

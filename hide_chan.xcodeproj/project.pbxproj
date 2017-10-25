@@ -14,7 +14,7 @@
 		6DDA0FF31FA0536D0003F6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA0FF11FA0536D0003F6A0 /* LaunchScreen.storyboard */; };
 		6DDA0FFE1FA0536E0003F6A0 /* hide_chanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA0FFD1FA0536E0003F6A0 /* hide_chanTests.swift */; };
 		6DDA10091FA0536E0003F6A0 /* hide_chanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA10081FA0536E0003F6A0 /* hide_chanUITests.swift */; };
-		6DDA10171FA058710003F6A0 /* Pla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA10161FA058710003F6A0 /* Pla.swift */; };
+		6DDA10171FA058710003F6A0 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA10161FA058710003F6A0 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		6DDA10041FA0536E0003F6A0 /* hide_chanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hide_chanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDA10081FA0536E0003F6A0 /* hide_chanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hide_chanUITests.swift; sourceTree = "<group>"; };
 		6DDA100A1FA0536E0003F6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DDA10161FA058710003F6A0 /* Pla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pla.swift; sourceTree = "<group>"; };
+		6DDA10161FA058710003F6A0 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				6DDA0FEF1FA0536D0003F6A0 /* Assets.xcassets */,
 				6DDA0FF11FA0536D0003F6A0 /* LaunchScreen.storyboard */,
 				6DDA0FF41FA0536D0003F6A0 /* Info.plist */,
-				6DDA10161FA058710003F6A0 /* Pla.swift */,
+				6DDA10161FA058710003F6A0 /* PlayerViewController.swift */,
 			);
 			path = hide_chan;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DDA0FEB1FA0536D0003F6A0 /* ViewController.swift in Sources */,
-				6DDA10171FA058710003F6A0 /* Pla.swift in Sources */,
+				6DDA10171FA058710003F6A0 /* PlayerViewController.swift in Sources */,
 				6DDA0FE91FA0536D0003F6A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,8 +10,10 @@ import UIKit
 import AVKit
 import AVFoundation
 
-class Pla: AVPlayerViewController {
+class PlayerViewController: AVPlayerViewController {
 	
+	var radioURL: URL?
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 //        let url = URL(fileURLWithPath: "http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8")
@@ -22,8 +24,8 @@ class Pla: AVPlayerViewController {
 //        self.player = player
 //        self.player?.play()
         
-        let videoURL = URL(string: "https://devimages.apple.com.edgekey.net/samplecode/avfoundationMedia/AVFoundationQueuePlayer_HLS2/master.m3u8")
-        let player = AVPlayer(url: videoURL!)
+        radioURL = URL(string: "https://devimages.apple.com.edgekey.net/samplecode/avfoundationMedia/AVFoundationQueuePlayer_HLS2/master.m3u8")
+        let player = AVPlayer(url: radioURL!)
         let playerViewController = AVPlayerViewController()
         playerViewController.player = player
         self.present(playerViewController, animated: true) {

@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/libswiftAVFoundation.dylib</key>
+		<data>
+		C222uRCAIsR5Zhj9EwdQIxCayec=
+		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
 		blagc+UjPVBTHaTHbrlBKbVn20I=
@@ -63,6 +67,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/libswiftAVFoundation.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			C222uRCAIsR5Zhj9EwdQIxCayec=
+			</data>
+			<key>hash2</key>
+			<data>
+			aucDui1YJLfqckpTnaQ5xLKJEO+FB9VapTI2Kfdh99o=
+			</data>
+		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>hash</key>
