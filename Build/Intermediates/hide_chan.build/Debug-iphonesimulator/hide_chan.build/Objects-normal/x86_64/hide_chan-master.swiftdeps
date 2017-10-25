@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "227a815125668dc543a06c3b140cd71d"
-build_time: [562261294, 227989000]
+build_time: [562262786, 299818000]
 inputs:
-  "/Users/bookair17/Desktop/hide_chan/hide_chan/ViewController.swift": [562261290, 0]
-  "/Users/bookair17/Desktop/hide_chan/hide_chan/PlayerViewController.swift": [562261241, 0]
+  "/Users/bookair17/Desktop/hide_chan/hide_chan/ViewController.swift": [562262785, 0]
+  "/Users/bookair17/Desktop/hide_chan/hide_chan/PlayerViewController.swift": [562261588, 0]
   "/Users/bookair17/Desktop/hide_chan/hide_chan/AppDelegate.swift": [562223213, 0]

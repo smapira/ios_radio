@@ -7,25 +7,61 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
 	var label: UILabel?
 
+	// todo background image
+	// button event
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		self.view.backgroundColor = UIColor(red: 178/255, green: 178/255, blue: 122/255, alpha: 1)
 		
+		let playerViewController = AVPlayerViewController()
+		self.view.addSubview(playerViewController.view)
+				playerViewController.view.frame = self.view.frame
+		playerViewController.view.isHidden = true
+		let radioURL = URL(string: "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1721052")
+		let radioURL2 = URL(string: "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1709502")
 
-		label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
-		label?.center = CGPoint(
-			x: self.view.frame.width  / 2,
-			y: self.view.frame.height / 2
-		)
-		label?.textAlignment = .center
-		label?.text = "Hello, World."
 		
-		self.view.addSubview(label!)
+		
+		
+		let firstAsset = AVURLAsset(url: radioURL!)
+		let firstPlayerItem = AVPlayerItem(asset: firstAsset)
+		
+		let player = AVPlayer(playerItem: firstPlayerItem)
+		
+		let secondAsset = AVURLAsset(url: radioURL2!)
+		let secondPlayerItem = AVPlayerItem(asset: secondAsset)
+		
+		player.replaceCurrentItem(with: secondPlayerItem)
+		
+		
+		
+		
+//		let player = AVPlayer(url: radioURL!)
+		playerViewController.player = player
+		playerViewController.view.backgroundColor = UIColor(red: 178/255, green: 178/255, blue: 122/255, alpha: 0)
+//		
+//		do {
+//			try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+//			print("AVAudioSession Category Playback OK")
+//			do {
+//				try AVAudioSession.sharedInstance().setActive(true)
+//				print("AVAudioSession is Active")
+//			} catch let error as NSError {
+//				print(error.localizedDescription)
+//			}
+//		} catch let error as NSError {
+//			print(error.localizedDescription)
+//		}
+		player.play()
+		
 		
 	}
 

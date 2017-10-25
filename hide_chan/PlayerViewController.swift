@@ -18,10 +18,12 @@ class PlayerViewController: AVPlayerViewController {
 		super.viewDidLoad()
 		let playerViewController = AVPlayerViewController()
 		self.view.addSubview(playerViewController.view)
-		playerViewController.view.frame = self.view.frame
+//		playerViewController.view.frame = self.view.frame
 		let radioURL = URL(string: "http://yp.shoutcast.com/sbin/tunein-station.pls?id=1721052")
 		let player = AVPlayer(url: radioURL!)
 		playerViewController.player = player
+		playerViewController.view.backgroundColor = UIColor(red: 178/255, green: 178/255, blue: 122/255, alpha: 0)
+
 		player.play()
 		
 	}
