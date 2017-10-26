@@ -4,15 +4,23 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>1f815c749d9cbb566ea34c2c6a5f161f.gif</key>
+		<key>377158fca2b73b083fd0aa4a4f703930.gif</key>
 		<data>
-		AJ0A7QhtsnIBR1KDUh7lEBDxLws=
+		bOK7n5dwBolhs7eZ8ofHgIV5rrk=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		XVURDpcgtxB8JvzYGd/Hi14dcSA=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		wmYyrVcUYVM+VC4RxxEDvOumgQg=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k5Y+ji3YqRsZIkqSJo9HezOL1lc=
+			CGJOEf6bCDshWkGsGBnhQ5pwOCI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -30,7 +38,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GBMpRX6D3k7gnUZhJyXEIywosQs=
+			47iNHqP6UXF4wHTQmam18sRmPmM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -39,7 +47,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kXWJcmHxjtt3++XhHg7DeEv+Bp4=
+			EuT7CBQZKOTSlnnh2lM2kn3FDfE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -57,7 +65,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BtQNEJfFA1fjuqdmq0PlwJVSUzo=
+			1TF2ibGxPFGuxBMzjWblt10JJ6w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -325,7 +333,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aXgFpNg0Z3U9Eg8NH61ur4YEIOI=
+		xtZwM9NQxRCkoonZZlJlOf7FjDM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -385,7 +393,7 @@
 		</data>
 		<key>PlugIns/hide_chanTests.xctest/Info.plist</key>
 		<data>
-		rlALMDX3vEmBrmOdv3a82LXH+O8=
+		zOQB4bb4pILLxPhF7JSGUliiBvI=
 		</data>
 		<key>PlugIns/hide_chanTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -410,26 +418,48 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>1f815c749d9cbb566ea34c2c6a5f161f.gif</key>
+		<key>377158fca2b73b083fd0aa4a4f703930.gif</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AJ0A7QhtsnIBR1KDUh7lEBDxLws=
+			bOK7n5dwBolhs7eZ8ofHgIV5rrk=
 			</data>
 			<key>hash2</key>
 			<data>
-			mWnfKhQu1+CU8y0n4XwE4BBqyqXRW6FxDNCYS8x9suU=
+			ctGijjIdtEcbVxjx1ZvZ5awkS2qviY5ckZKRswEODKg=
+			</data>
+		</dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XVURDpcgtxB8JvzYGd/Hi14dcSA=
+			</data>
+			<key>hash2</key>
+			<data>
+			yky5RTLoiylJeIF4LJyp02MYuAjiqvv2n2rBOZInLwk=
+			</data>
+		</dict>
+		<key>AppIcon60x60@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wmYyrVcUYVM+VC4RxxEDvOumgQg=
+			</data>
+			<key>hash2</key>
+			<data>
+			V8lON6+S4yewDg6ENnUc0CtTjM4rviXafxu6/70pFFU=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k5Y+ji3YqRsZIkqSJo9HezOL1lc=
+			CGJOEf6bCDshWkGsGBnhQ5pwOCI=
 			</data>
 			<key>hash2</key>
 			<data>
-			14ip9mVXk+jddpadryCDwRrCHbCj6qhTRR3tkTe7mbA=
+			qYonoBSCoRDRReI/tiYjfMmokGOkdjqjwINuE6LDCtw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -451,11 +481,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GBMpRX6D3k7gnUZhJyXEIywosQs=
+			47iNHqP6UXF4wHTQmam18sRmPmM=
 			</data>
 			<key>hash2</key>
 			<data>
-			MbxaP77LTe/pfnEqYxnYZTpuMWtcLn7awqy3P01eFYs=
+			wHVtYAI6kDolxCoDlCiNiye6LcR81vxVETuGXQ6jNJs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -464,11 +494,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kXWJcmHxjtt3++XhHg7DeEv+Bp4=
+			EuT7CBQZKOTSlnnh2lM2kn3FDfE=
 			</data>
 			<key>hash2</key>
 			<data>
-			7/FyBTpC3jtmcazp/idx5QNVfYLmOOxWk5IQg/aiIOA=
+			VV+dtefrHGQ3VYhpCwRfvRFodSY2jD5GBwkqzC0GIu8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -490,11 +520,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BtQNEJfFA1fjuqdmq0PlwJVSUzo=
+			1TF2ibGxPFGuxBMzjWblt10JJ6w=
 			</data>
 			<key>hash2</key>
 			<data>
-			kSjaBCivGrmfLlKuQAaxt2Mr4KvovDNVx/PTJhoRpZI=
+			30/OoN2qA0C8qCc7yw7zazFQe9kPadGFbwSucmojAKY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1357,11 +1387,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rlALMDX3vEmBrmOdv3a82LXH+O8=
+			zOQB4bb4pILLxPhF7JSGUliiBvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			S5lc5c//yEblDS8GKLYzUXYLXr1PPoGOGuWvHHznIa0=
+			lhKzyR66sxOwTFNso/Q2l1axk9+NUfg9N47C5ZlnO6w=
 			</data>
 		</dict>
 		<key>PlugIns/hide_chanTests.xctest/_CodeSignature/CodeResources</key>

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>com.routeflags.hide-chan</string>
+	<string>37UWWHTFTU.com.routeflags.hide-chan</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>com.routeflags.hide-chan</string>
+		<string>37UWWHTFTU.com.routeflags.hide-chan</string>
 	</array>
 </dict>
 </plist>

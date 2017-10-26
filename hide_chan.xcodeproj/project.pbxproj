@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		026E60722C3B9EB653CEE859 /* Pods_hide_chan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B205E7D04074B4DBC6BC0F /* Pods_hide_chan.framework */; };
-		6D5489081FA219D2009B665B /* 1f815c749d9cbb566ea34c2c6a5f161f.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D5489071FA219D2009B665B /* 1f815c749d9cbb566ea34c2c6a5f161f.gif */; };
+		6D54890A1FA22085009B665B /* 377158fca2b73b083fd0aa4a4f703930.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D5489091FA22085009B665B /* 377158fca2b73b083fd0aa4a4f703930.gif */; };
 		6DB71C171FA0E4B90034C0AF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB71C161FA0E4B90034C0AF /* AVFoundation.framework */; };
 		6DB71C191FA0E4BF0034C0AF /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB71C181FA0E4BF0034C0AF /* AVKit.framework */; };
 		6DDA0FE91FA0536D0003F6A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA0FE81FA0536D0003F6A0 /* AppDelegate.swift */; };
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		16BE0928809447EB5DD760CE /* Pods-hide_chan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hide_chan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hide_chan/Pods-hide_chan.debug.xcconfig"; sourceTree = "<group>"; };
 		4F79B7AC5014B0CE09618A7E /* Pods-hide_chan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hide_chan.release.xcconfig"; path = "Pods/Target Support Files/Pods-hide_chan/Pods-hide_chan.release.xcconfig"; sourceTree = "<group>"; };
-		6D5489071FA219D2009B665B /* 1f815c749d9cbb566ea34c2c6a5f161f.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1f815c749d9cbb566ea34c2c6a5f161f.gif; sourceTree = "<group>"; };
+		6D5489091FA22085009B665B /* 377158fca2b73b083fd0aa4a4f703930.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 377158fca2b73b083fd0aa4a4f703930.gif; sourceTree = "<group>"; };
 		6DB71C161FA0E4B90034C0AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6DB71C181FA0E4BF0034C0AF /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		6DDA0FE51FA0536D0003F6A0 /* hide_chan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hide_chan.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,7 +57,7 @@
 		6DDA10041FA0536E0003F6A0 /* hide_chanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hide_chanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDA10081FA0536E0003F6A0 /* hide_chanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hide_chanUITests.swift; sourceTree = "<group>"; };
 		6DDA100A1FA0536E0003F6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DFCC4B71FA20338007F699B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6DFCC4B71FA20338007F699B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		82B205E7D04074B4DBC6BC0F /* Pods_hide_chan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hide_chan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -134,7 +134,7 @@
 		6DDA0FE71FA0536D0003F6A0 /* hide_chan */ = {
 			isa = PBXGroup;
 			children = (
-				6D5489071FA219D2009B665B /* 1f815c749d9cbb566ea34c2c6a5f161f.gif */,
+				6D5489091FA22085009B665B /* 377158fca2b73b083fd0aa4a4f703930.gif */,
 				6DDA0FE81FA0536D0003F6A0 /* AppDelegate.swift */,
 				6DDA0FEA1FA0536D0003F6A0 /* ViewController.swift */,
 				6DDA0FEC1FA0536D0003F6A0 /* Main.storyboard */,
@@ -234,6 +234,7 @@
 				TargetAttributes = {
 					6DDA0FE41FA0536D0003F6A0 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 37UWWHTFTU;
 						ProvisioningStyle = Automatic;
 					};
 					6DDA0FF81FA0536E0003F6A0 = {
@@ -274,10 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DDA0FF31FA0536D0003F6A0 /* LaunchScreen.storyboard in Resources */,
-				6D5489081FA219D2009B665B /* 1f815c749d9cbb566ea34c2c6a5f161f.gif in Resources */,
 				6DDA0FF01FA0536D0003F6A0 /* Assets.xcassets in Resources */,
 				6DFCC4B81FA20338007F699B /* Podfile in Resources */,
 				6DDA0FEE1FA0536D0003F6A0 /* Main.storyboard in Resources */,
+				6D54890A1FA22085009B665B /* 377158fca2b73b083fd0aa4a4f703930.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,11 +509,13 @@
 			baseConfigurationReference = 16BE0928809447EB5DD760CE /* Pods-hide_chan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37UWWHTFTU;
 				INFOPLIST_FILE = hide_chan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.routeflags.hide-chan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -521,11 +524,13 @@
 			baseConfigurationReference = 4F79B7AC5014B0CE09618A7E /* Pods-hide_chan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 37UWWHTFTU;
 				INFOPLIST_FILE = hide_chan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.routeflags.hide-chan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

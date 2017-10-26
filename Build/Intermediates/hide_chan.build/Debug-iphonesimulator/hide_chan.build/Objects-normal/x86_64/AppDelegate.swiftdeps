@@ -7,21 +7,21 @@ provides-member:
 - ["C9hide_chan11AppDelegate", ""]
 provides-dynamic-lookup:
 - "applicationWillEnterForeground"
-- "applicationDidBecomeActive"
-- "window"
-- "applicationDidEnterBackground"
-- "applicationWillTerminate"
-- "application"
 - "applicationWillResignActive"
+- "applicationDidEnterBackground"
+- "window"
+- "application"
+- "applicationWillTerminate"
+- "applicationDidBecomeActive"
 depends-top-level:
-- "UIApplication"
-- "UIApplicationLaunchOptionsKey"
-- "AppDelegate"
 - "UIWindow"
-- "UIApplicationDelegate"
-- "UIResponder"
+- "UIApplicationLaunchOptionsKey"
 - "Bool"
+- "UIApplicationDelegate"
+- "UIApplication"
 - !private "BooleanLiteralType"
+- "UIResponder"
+- "AppDelegate"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
@@ -266,4 +266,4 @@ depends-external:
 - "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
 - "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-umbrella.h"
 - "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/module.modulemap"
-interface-hash: "7e85a999868267b7cde0941f4dd635ac"
+interface-hash: "21008838dd43558393615336176134b9"

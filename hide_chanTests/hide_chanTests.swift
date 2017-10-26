@@ -28,6 +28,6 @@ class hide_chanTests: XCTestCase {
 		let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
 		let viewController = storyBoard.instantiateViewController(withIdentifier: "viewController") as? ViewController
 		viewController?.viewDidLoad()
-//		XCTAssertEqual(viewController?.label?.text, "Hello, World.")
+		XCTAssertEqual(viewController?.tuner, 0)
 	}
 }

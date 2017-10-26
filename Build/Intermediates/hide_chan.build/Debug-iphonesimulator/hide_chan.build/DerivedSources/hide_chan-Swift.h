@@ -147,6 +147,7 @@ SWIFT_CLASS("_TtC9hide_chan14ViewController")
 - (NSInteger)adjust_tuner;
 - (void)nextButtonActionWithSender:(UIButton * _Null_unspecified)sender;
 - (void)prevButtonActionWithSender:(UIButton * _Null_unspecified)sender;
+- (void)centerButtonActionWithSender:(UIButton * _Null_unspecified)sender;
 - (void)generateButtons;
 - (void)generateBackground;
 - (void)generatePlayer;

@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "9381067da94d9de1fe183fdc1322065c"
+build_time: [562343271, 570008000]
+inputs:
+  "/Users/bookair17/Desktop/hide_chan/hide_chan/ViewController.swift": [562343261, 0]
+  "/Users/bookair17/Desktop/hide_chan/hide_chan/AppDelegate.swift": [562343259, 0]
