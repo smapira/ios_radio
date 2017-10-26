@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>1f815c749d9cbb566ea34c2c6a5f161f.gif</key>
+		<data>
+		AJ0A7QhtsnIBR1KDUh7lEBDxLws=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
@@ -73,6 +77,18 @@
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<data>
 		oJil3U1d5lvNs+UAiDae04BI/2g=
+		</data>
+		<key>Frameworks/SwiftGifOrigin.framework/Info.plist</key>
+		<data>
+		aQ6gA7fO17odBi7ijSf71617pCA=
+		</data>
+		<key>Frameworks/SwiftGifOrigin.framework/SwiftGifOrigin</key>
+		<data>
+		7FA1ufTd+pTU+sTpHXEJ8mZFQmw=
+		</data>
+		<key>Frameworks/SwiftGifOrigin.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Xysnar6Wdqt+kka+mp/vQ4eM3kU=
 		</data>
 		<key>Frameworks/XCTest.framework/Headers/XCAbstractTest.h</key>
 		<data>
@@ -383,6 +399,10 @@
 		<data>
 		uaH9d6M/V47nuESS+k+xBhtuaFY=
 		</data>
+		<key>Podfile</key>
+		<data>
+		tVu1lEZCNt1QwS2w9aZvLhg4YAk=
+		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
 		uaH9d6M/V47nuESS+k+xBhtuaFY=
@@ -390,6 +410,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>1f815c749d9cbb566ea34c2c6a5f161f.gif</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AJ0A7QhtsnIBR1KDUh7lEBDxLws=
+			</data>
+			<key>hash2</key>
+			<data>
+			mWnfKhQu1+CU8y0n4XwE4BBqyqXRW6FxDNCYS8x9suU=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
@@ -510,6 +541,39 @@
 			<key>hash2</key>
 			<data>
 			gYjYT2HBXfrAq8c53hSUU6hYYEsGvu1N0ekCfZGuHVQ=
+			</data>
+		</dict>
+		<key>Frameworks/SwiftGifOrigin.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aQ6gA7fO17odBi7ijSf71617pCA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xnqw/Egh3aFaPFhcwtrportavqsbLAD3Bi0zWd+YeDc=
+			</data>
+		</dict>
+		<key>Frameworks/SwiftGifOrigin.framework/SwiftGifOrigin</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7FA1ufTd+pTU+sTpHXEJ8mZFQmw=
+			</data>
+			<key>hash2</key>
+			<data>
+			n17+ZSCl5bkMNvfavoHSqL0S0mZ1W7XMHd56nTTSXpI=
+			</data>
+		</dict>
+		<key>Frameworks/SwiftGifOrigin.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Xysnar6Wdqt+kka+mp/vQ4eM3kU=
+			</data>
+			<key>hash2</key>
+			<data>
+			NxWecoOuRHWh97oBphPd6A7SOwOxXLQEbhgNHGx/zmk=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Headers/XCAbstractTest.h</key>
@@ -1331,6 +1395,17 @@
 			<key>hash2</key>
 			<data>
 			llHAZkO6n7nBJ/NRzRVfg87qHMoIjTZKIfCg7Ek9FsQ=
+			</data>
+		</dict>
+		<key>Podfile</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tVu1lEZCNt1QwS2w9aZvLhg4YAk=
+			</data>
+			<key>hash2</key>
+			<data>
+			EpHWdctTW7M+lSnItrB96jNMw3Bq4ZpgBr5gp5UB59I=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

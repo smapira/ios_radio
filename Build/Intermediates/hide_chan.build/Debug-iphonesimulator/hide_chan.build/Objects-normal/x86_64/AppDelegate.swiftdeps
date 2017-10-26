@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C9hide_chan11AppDelegate", ""]
 provides-dynamic-lookup:
-- "window"
-- "applicationWillTerminate"
-- "applicationDidBecomeActive"
-- "application"
-- "applicationDidEnterBackground"
 - "applicationWillEnterForeground"
+- "applicationDidBecomeActive"
+- "window"
+- "applicationDidEnterBackground"
+- "applicationWillTerminate"
+- "application"
 - "applicationWillResignActive"
 depends-top-level:
-- "UIApplicationDelegate"
 - "UIApplication"
-- "UIResponder"
-- "UIWindow"
-- "Bool"
 - "UIApplicationLaunchOptionsKey"
 - "AppDelegate"
+- "UIWindow"
+- "UIApplicationDelegate"
+- "UIResponder"
+- "Bool"
 - !private "BooleanLiteralType"
 depends-member:
 - ["Ps9AnyObject", "application"]
@@ -262,4 +262,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/SwiftGifOrigin.swiftmodule/x86_64.swiftmodule"
+- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
+- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-umbrella.h"
+- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/module.modulemap"
 interface-hash: "7e85a999868267b7cde0941f4dd635ac"

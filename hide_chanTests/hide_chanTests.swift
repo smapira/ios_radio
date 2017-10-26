@@ -24,10 +24,10 @@ class hide_chanTests: XCTestCase {
         super.tearDown()
     }
 	
-	func testAVKitPlayerViewController() {
+    func testLabelTitle() {
 		let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
-		let avkitPlayerViewController = storyBoard.instantiateViewController(withIdentifier: "avkitPlayerViewController") as? PlayerViewController
-		avkitPlayerViewController?.viewDidLoad()
-		XCTAssertEqual(avkitPlayerViewController?.radioURL?.absoluteString, "https://devimages.apple.com.edgekey.net/samplecode/avfoundationMedia/AVFoundationQueuePlayer_HLS2/master.m3u8")
+		let viewController = storyBoard.instantiateViewController(withIdentifier: "viewController") as? ViewController
+		viewController?.viewDidLoad()
+//		XCTAssertEqual(viewController?.label?.text, "Hello, World.")
 	}
 }

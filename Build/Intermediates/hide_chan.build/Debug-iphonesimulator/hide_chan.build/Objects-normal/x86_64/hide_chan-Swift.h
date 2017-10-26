@@ -116,8 +116,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import AVKit;
-@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -137,23 +135,21 @@ SWIFT_CLASS("_TtC9hide_chan11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class AVPlayer;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC9hide_chan20PlayerViewController")
-@interface PlayerViewController : AVPlayerViewController
-@property (nonatomic, copy) NSURL * _Nullable radioURL;
-- (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UILabel;
-
 SWIFT_CLASS("_TtC9hide_chan14ViewController")
 @interface ViewController : UIViewController
-@property (nonatomic, strong) UILabel * _Nullable label;
+@property (nonatomic) NSInteger tuner;
+@property (nonatomic, strong) AVPlayer * _Nullable player;
+- (NSInteger)adjust_tuner;
+- (void)nextButtonActionWithSender:(UIButton * _Null_unspecified)sender;
+- (void)prevButtonActionWithSender:(UIButton * _Null_unspecified)sender;
+- (void)generateButtons;
+- (void)generateBackground;
+- (void)generatePlayer;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
