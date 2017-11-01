@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C9hide_chan11AppDelegate", ""]
 provides-dynamic-lookup:
-- "window"
-- "applicationWillEnterForeground"
-- "applicationWillTerminate"
 - "applicationDidBecomeActive"
+- "window"
+- "applicationWillTerminate"
+- "applicationWillResignActive"
+- "applicationWillEnterForeground"
 - "applicationDidEnterBackground"
 - "application"
-- "applicationWillResignActive"
 depends-top-level:
 - !private "BooleanLiteralType"
-- "UIWindow"
-- "Bool"
+- "UIResponder"
 - "UIApplicationDelegate"
+- "UIWindow"
 - "UIApplication"
 - "AppDelegate"
 - "UIApplicationLaunchOptionsKey"
-- "UIResponder"
+- "Bool"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
@@ -262,8 +262,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
-- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/SwiftGifOrigin.swiftmodule/arm.swiftmodule"
-- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
-- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-umbrella.h"
-- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/module.modulemap"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/ios_radio/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/SwiftGifOrigin.swiftmodule/arm.swiftmodule"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/ios_radio/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/ios_radio/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-umbrella.h"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/ios_radio/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/module.modulemap"
 interface-hash: "21008838dd43558393615336176134b9"
