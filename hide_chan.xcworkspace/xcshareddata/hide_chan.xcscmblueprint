@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "96D81D91AAA2EB81FE93B7123B75774BEE4DBAD3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "44DCCCA99046807BF812C2E8A2D33019E9A29BDD" : 9223372036854775807,
+    "96D81D91AAA2EB81FE93B7123B75774BEE4DBAD3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "417A6600-546D-4918-86FB-B376B31873DB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "44DCCCA99046807BF812C2E8A2D33019E9A29BDD" : "",
+    "96D81D91AAA2EB81FE93B7123B75774BEE4DBAD3" : "hide_chan\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "hide_chan",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "hide_chan.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/bitbucket.org\/routeflagsinc\/stash.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44DCCCA99046807BF812C2E8A2D33019E9A29BDD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:smapira\/ios_radio.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96D81D91AAA2EB81FE93B7123B75774BEE4DBAD3"
+    }
+  ]
+}

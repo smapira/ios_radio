@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aQ6gA7fO17odBi7ijSf71617pCA=
+		+C2GXFLT+zlV28750/qhR9zMWLg=
 		</data>
 		<key>Modules/SwiftGifOrigin.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SwiftGifOrigin.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		AOVZsmXmxHw9kCZ5iCygziyNKpU=
+		VY+OYzMUbQVLSz586sZztNscOnc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,11 +68,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AOVZsmXmxHw9kCZ5iCygziyNKpU=
+			VY+OYzMUbQVLSz586sZztNscOnc=
 			</data>
 			<key>hash2</key>
 			<data>
-			YjtBrnh3asF1ei/8KfE3OtKvsIWTpopH9PXajLrrLRQ=
+			koiJUtTQtv/UALuKbCmBSKzhBz/FDaqiQPj06yIQmFA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

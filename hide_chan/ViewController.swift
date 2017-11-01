@@ -81,7 +81,6 @@ class ViewController: UIViewController {
 		nextButton.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 122/255, alpha: 0)
 		nextButton.addTarget(self, action: #selector(nextButtonAction), for: .touchUpInside)
 		self.view.addSubview(nextButton)
-		
 		let prevButton = UIButton(frame: CGRect(x: 0, y: 0, width: self.view.frame.width / 2, height: self.view.frame.height))
 		prevButton.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 122/255, alpha: 0)
 		prevButton.addTarget(self, action: #selector(prevButtonAction), for: .touchUpInside)
@@ -101,6 +100,7 @@ class ViewController: UIViewController {
 		imageView.frame = rect;
 		imageView.center = self.view.center
 		self.view.addSubview(imageView)
+		self.view.sendSubview(toBack: imageView)
 		self.view.backgroundColor = .black
 		
 		let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))

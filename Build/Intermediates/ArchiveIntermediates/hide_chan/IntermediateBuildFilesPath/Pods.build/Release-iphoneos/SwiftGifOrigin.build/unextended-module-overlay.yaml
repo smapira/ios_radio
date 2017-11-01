@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/BuildProductsPath/Release-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules'
+    'name': '/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/BuildProductsPath/Release-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/SwiftGifOrigin.build/unextended-module.modulemap',
+      'external-contents': '/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/SwiftGifOrigin.build/unextended-module.modulemap',
     }]
   }]
 }

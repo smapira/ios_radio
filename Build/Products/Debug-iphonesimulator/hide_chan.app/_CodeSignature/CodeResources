@@ -8,6 +8,34 @@
 		<data>
 		bOK7n5dwBolhs7eZ8ofHgIV5rrk=
 		</data>
+		<key>AppIcon-140x40@2x.png</key>
+		<data>
+		ellTmexyNyVrd3Gki4308JQTTUk=
+		</data>
+		<key>AppIcon-140x40@3x.png</key>
+		<data>
+		XVURDpcgtxB8JvzYGd/Hi14dcSA=
+		</data>
+		<key>AppIcon-160x60@2x.png</key>
+		<data>
+		XVURDpcgtxB8JvzYGd/Hi14dcSA=
+		</data>
+		<key>AppIcon-160x60@3x.png</key>
+		<data>
+		wmYyrVcUYVM+VC4RxxEDvOumgQg=
+		</data>
+		<key>AppIcon-176x76@2x~ipad.png</key>
+		<data>
+		QKDHorb4x2Crw+9xiFg8bH21eto=
+		</data>
+		<key>AppIcon-176x76~ipad.png</key>
+		<data>
+		WCoflySdt2/E7bR020Tls2e+mos=
+		</data>
+		<key>AppIcon-183.5x83.5@2x~ipad.png</key>
+		<data>
+		YY1u+o01yNIuHqM3ny9r4jkyTuw=
+		</data>
 		<key>AppIcon60x60@2x.png</key>
 		<data>
 		XVURDpcgtxB8JvzYGd/Hi14dcSA=
@@ -16,11 +44,15 @@
 		<data>
 		wmYyrVcUYVM+VC4RxxEDvOumgQg=
 		</data>
+		<key>Assets.car</key>
+		<data>
+		YbyJR+KhrY/Dl6WMfw/SXrtW+P0=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CGJOEf6bCDshWkGsGBnhQ5pwOCI=
+			c9N1NLmGxgcWOCQoF/rBWBlGiAI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -38,7 +70,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			47iNHqP6UXF4wHTQmam18sRmPmM=
+			UJpFLTK5w5tv/kvZP1WbMsBd+sQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -47,7 +79,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EuT7CBQZKOTSlnnh2lM2kn3FDfE=
+			zT2PfwxjSS1edHGTzC+ZQDxPMxs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -65,7 +97,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1TF2ibGxPFGuxBMzjWblt10JJ6w=
+			6c1JbXAPEZsDLE0y/4wGIDRqeoc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -88,15 +120,15 @@
 		</data>
 		<key>Frameworks/SwiftGifOrigin.framework/Info.plist</key>
 		<data>
-		aQ6gA7fO17odBi7ijSf71617pCA=
+		+C2GXFLT+zlV28750/qhR9zMWLg=
 		</data>
 		<key>Frameworks/SwiftGifOrigin.framework/SwiftGifOrigin</key>
 		<data>
-		7FA1ufTd+pTU+sTpHXEJ8mZFQmw=
+		sbPYx38WZhiM01mijRDSzHeSm1Q=
 		</data>
 		<key>Frameworks/SwiftGifOrigin.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Xysnar6Wdqt+kka+mp/vQ4eM3kU=
+		ZlieTT+mV8plk8rMnXkh9VYIaX0=
 		</data>
 		<key>Frameworks/XCTest.framework/Headers/XCAbstractTest.h</key>
 		<data>
@@ -333,7 +365,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xtZwM9NQxRCkoonZZlJlOf7FjDM=
+		KQWE67utxSpU+Gwc5ynVnfkcMX0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -429,6 +461,83 @@
 			ctGijjIdtEcbVxjx1ZvZ5awkS2qviY5ckZKRswEODKg=
 			</data>
 		</dict>
+		<key>AppIcon-140x40@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ellTmexyNyVrd3Gki4308JQTTUk=
+			</data>
+			<key>hash2</key>
+			<data>
+			7NQKCpTaRC3j4yq2H8DD6HpbkGZX/a8F9t9wHU9A8Vk=
+			</data>
+		</dict>
+		<key>AppIcon-140x40@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XVURDpcgtxB8JvzYGd/Hi14dcSA=
+			</data>
+			<key>hash2</key>
+			<data>
+			yky5RTLoiylJeIF4LJyp02MYuAjiqvv2n2rBOZInLwk=
+			</data>
+		</dict>
+		<key>AppIcon-160x60@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XVURDpcgtxB8JvzYGd/Hi14dcSA=
+			</data>
+			<key>hash2</key>
+			<data>
+			yky5RTLoiylJeIF4LJyp02MYuAjiqvv2n2rBOZInLwk=
+			</data>
+		</dict>
+		<key>AppIcon-160x60@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wmYyrVcUYVM+VC4RxxEDvOumgQg=
+			</data>
+			<key>hash2</key>
+			<data>
+			V8lON6+S4yewDg6ENnUc0CtTjM4rviXafxu6/70pFFU=
+			</data>
+		</dict>
+		<key>AppIcon-176x76@2x~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QKDHorb4x2Crw+9xiFg8bH21eto=
+			</data>
+			<key>hash2</key>
+			<data>
+			ig4/QDqXh31A8TtsXcwkdq2hRYVVYH0E38LmAj4w1OI=
+			</data>
+		</dict>
+		<key>AppIcon-176x76~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WCoflySdt2/E7bR020Tls2e+mos=
+			</data>
+			<key>hash2</key>
+			<data>
+			j+HeaPzj+ffcnoFb4lNq5Qy3GntUUWsr0EbHVumefbk=
+			</data>
+		</dict>
+		<key>AppIcon-183.5x83.5@2x~ipad.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YY1u+o01yNIuHqM3ny9r4jkyTuw=
+			</data>
+			<key>hash2</key>
+			<data>
+			P4g7CLITivGRme9Y+PFgWdidW95cSfp1R0/us7GiJ/A=
+			</data>
+		</dict>
 		<key>AppIcon60x60@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -451,15 +560,26 @@
 			V8lON6+S4yewDg6ENnUc0CtTjM4rviXafxu6/70pFFU=
 			</data>
 		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YbyJR+KhrY/Dl6WMfw/SXrtW+P0=
+			</data>
+			<key>hash2</key>
+			<data>
+			8iYDDrgVI3AdIAtFpbYCNvr5rdpKTX8lGE+apT4WBFI=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CGJOEf6bCDshWkGsGBnhQ5pwOCI=
+			c9N1NLmGxgcWOCQoF/rBWBlGiAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			qYonoBSCoRDRReI/tiYjfMmokGOkdjqjwINuE6LDCtw=
+			p+GHYg1x6sWyqBLdePL7IXj72Z20co4YrWsRdUV/h1c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -481,11 +601,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			47iNHqP6UXF4wHTQmam18sRmPmM=
+			UJpFLTK5w5tv/kvZP1WbMsBd+sQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			wHVtYAI6kDolxCoDlCiNiye6LcR81vxVETuGXQ6jNJs=
+			EEyJwkgZm/IoXBUIKI1OATWv72AzzahfOZ62BexDZyE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -494,11 +614,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EuT7CBQZKOTSlnnh2lM2kn3FDfE=
+			zT2PfwxjSS1edHGTzC+ZQDxPMxs=
 			</data>
 			<key>hash2</key>
 			<data>
-			VV+dtefrHGQ3VYhpCwRfvRFodSY2jD5GBwkqzC0GIu8=
+			ahtPWV3xPgv2DAR1zLTfVh2/jmxZASK3F9HF5jaqEmo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -520,11 +640,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1TF2ibGxPFGuxBMzjWblt10JJ6w=
+			6c1JbXAPEZsDLE0y/4wGIDRqeoc=
 			</data>
 			<key>hash2</key>
 			<data>
-			30/OoN2qA0C8qCc7yw7zazFQe9kPadGFbwSucmojAKY=
+			jlvtpe6PS8PEvzU6nCp+9/PCUnuybzR9OC4rzzOEDMU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -577,33 +697,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aQ6gA7fO17odBi7ijSf71617pCA=
+			+C2GXFLT+zlV28750/qhR9zMWLg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xnqw/Egh3aFaPFhcwtrportavqsbLAD3Bi0zWd+YeDc=
+			N/u3frUlzAAJyJs9tmP7meq62ay15LWDt02PKZ9bUPI=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftGifOrigin.framework/SwiftGifOrigin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7FA1ufTd+pTU+sTpHXEJ8mZFQmw=
+			sbPYx38WZhiM01mijRDSzHeSm1Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			n17+ZSCl5bkMNvfavoHSqL0S0mZ1W7XMHd56nTTSXpI=
+			neiVqLqBMGVUU7JGaydtTgsl4UClrOyb9BgHlygvxjI=
 			</data>
 		</dict>
 		<key>Frameworks/SwiftGifOrigin.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Xysnar6Wdqt+kka+mp/vQ4eM3kU=
+			ZlieTT+mV8plk8rMnXkh9VYIaX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			NxWecoOuRHWh97oBphPd6A7SOwOxXLQEbhgNHGx/zmk=
+			jL5aov18FPMdLegUK8JrQSoRh/tP2fo/hsyszxr5c1o=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Headers/XCAbstractTest.h</key>

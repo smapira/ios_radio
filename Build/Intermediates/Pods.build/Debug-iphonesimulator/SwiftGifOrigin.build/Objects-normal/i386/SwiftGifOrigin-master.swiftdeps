@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "6599c1e6763ee387d31eea64d45e15f6"
+build_time: [562718031, 54330000]
+inputs:
+  "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Pods/SwiftGifOrigin/SwiftGifCommon/UIImage+Gif.swift": [562334729, 0]

@@ -48,11 +48,11 @@ ___swift_noop_self_return
 ___swift_noop_void_return
 __TwcpVSC29UIApplicationLaunchOptionsKey
 __TwcaVSC29UIApplicationLaunchOptionsKey
-___swift_memcpy4_4
+___swift_memcpy8_8
 __TwtaVSC29UIApplicationLaunchOptionsKey
 __TwXxVSC29UIApplicationLaunchOptionsKey
 __TwCcVSC29UIApplicationLaunchOptionsKey
-___swift_memmove_array4_4
+___swift_memmove_array8_8
 __TwxsVSC29UIApplicationLaunchOptionsKey
 __TwxgVSC29UIApplicationLaunchOptionsKey
 _rt_swift_slowAlloc
@@ -140,14 +140,14 @@ _objc_classes
 __TMC9hide_chan14ViewController
 _OBJC_CLASS_$__TtC9hide_chan14ViewController
 Apple LLVM version 8.0.0 (clang-800.0.42.1)
--emit-bc /Users/bookair17/Desktop/hide_chan/hide_chan/ViewController.swift /Users/bookair17/Desktop/hide_chan/hide_chan/AppDelegate.swift -target armv7-apple-ios8.0 -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -I /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/BuildProductsPath/Release-iphoneos -F /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/BuildProductsPath/Release-iphoneos -F /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/BuildProductsPath/Release-iphoneos/SwiftGifOrigin -g -module-cache-path /Users/bookair17/Library/Developer/Xcode/DerivedData/ModuleCache -D COCOAPODS -serialize-debugging-options -Xcc -I/Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/hide_chan-generated-files.hmap -Xcc -I/Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/hide_chan-own-target-headers.hmap -Xcc -I/Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/hide_chan-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/hide_chan-project-headers.hmap -Xcc -I/Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/BuildProductsPath/Release-iphoneos/include -Xcc -I/Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/DerivedSources/armv7 -Xcc -I/Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/DerivedSources -Xcc -DCOCOAPODS=1 -Xcc -working-directory/Users/bookair17/Desktop/hide_chan -emit-module-doc-path /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/armv7/hide_chan.swiftdoc -O -module-name hide_chan -emit-module-path /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/armv7/hide_chan.swiftmodule -emit-objc-header-path /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/armv7/hide_chan-Swift.h -serialize-diagnostics-path /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/armv7/ViewController.dia -emit-dependencies-path /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/armv7/ViewController.d -num-threads 4 -o /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/armv7/ViewController.bc -o /Users/bookair17/Desktop/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/armv7/AppDelegate.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+-emit-bc /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/hide_chan/ViewController.swift /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/hide_chan/AppDelegate.swift -target arm64-apple-ios8.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -I /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/BuildProductsPath/Release-iphoneos -F /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/BuildProductsPath/Release-iphoneos -F /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/BuildProductsPath/Release-iphoneos/SwiftGifOrigin -g -module-cache-path /Users/bookair17/Library/Developer/Xcode/DerivedData/ModuleCache -D COCOAPODS -serialize-debugging-options -Xcc -I/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/hide_chan-generated-files.hmap -Xcc -I/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/hide_chan-own-target-headers.hmap -Xcc -I/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/hide_chan-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/hide_chan-project-headers.hmap -Xcc -I/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/BuildProductsPath/Release-iphoneos/include -Xcc -I/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/DerivedSources/arm64 -Xcc -I/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/DerivedSources -Xcc -DCOCOAPODS=1 -Xcc -working-directory/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan -emit-module-doc-path /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/arm64/hide_chan.swiftdoc -O -module-name hide_chan -emit-module-path /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/arm64/hide_chan.swiftmodule -emit-objc-header-path /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/arm64/hide_chan-Swift.h -serialize-diagnostics-path /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/arm64/ViewController.dia -emit-dependencies-path /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/arm64/ViewController.d -num-threads 4 -o /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/arm64/ViewController.bc -o /Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Intermediates/ArchiveIntermediates/hide_chan/IntermediateBuildFilesPath/hide_chan.build/Release-iphoneos/hide_chan.build/Objects-normal/arm64/AppDelegate.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
 <swift-imported-modules>
-/Users/bookair17/Desktop/hide_chan
+/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan
 Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)
-/Users/bookair17/Desktop/hide_chan/hide_chan/ViewController.swift
+/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/hide_chan/ViewController.swift
 _TTSf4g_n_d___TTSg5VSC29UIApplicationLaunchOptionsKeyS_s20_SwiftNewtypeWrapper5UIKit___TZFesRxs20_SwiftNewtypeWrapperwx8RawValues21_ObjectiveCBridgeablerS_34_conditionallyBridgeFromObjectiveCfTWxS0_15_ObjectiveCType_6resultRGSqx__Sb
 ViewController.swift
-/Users/bookair17/Desktop/hide_chan/hide_chan
+/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/hide_chan
 _TTSg5SS_VSC29UIApplicationLaunchOptionsKey___TFSq7flatMapurfzFzxGSqqd___GSqqd___
 _TTSr5VSC29UIApplicationLaunchOptionsKeyS_s20_SwiftNewtypeWrapper5UIKit___TFZFesRxs20_SwiftNewtypeWrapperwx8RawValues21_ObjectiveCBridgeablerS_34_conditionallyBridgeFromObjectiveCFTWxS0_15_ObjectiveCType_6resultRGSqx__SbU_FQQPS_8RawValueGSqS3__
 _TTSg5VSC29UIApplicationLaunchOptionsKeyS_s20_SwiftNewtypeWrapper5UIKit___TFZFesRxs20_SwiftNewtypeWrapperwx8RawValues21_ObjectiveCBridgeablerS_34_conditionallyBridgeFromObjectiveCFTWxS0_15_ObjectiveCType_6resultRGSqx__SbU_FQQPS_8RawValueGSqS3__
@@ -216,11 +216,11 @@ get_field_types_UIApplicationLaunchOptionsKey
 _TMaCSo8NSString
 _TwxgVSC29UIApplicationLaunchOptionsKey
 _TwxsVSC29UIApplicationLaunchOptionsKey
-__swift_memmove_array4_4
+__swift_memmove_array8_8
 _TwCcVSC29UIApplicationLaunchOptionsKey
 _TwXxVSC29UIApplicationLaunchOptionsKey
 _TwtaVSC29UIApplicationLaunchOptionsKey
-__swift_memcpy4_4
+__swift_memcpy8_8
 _TwcaVSC29UIApplicationLaunchOptionsKey
 _TwcpVSC29UIApplicationLaunchOptionsKey
 __swift_noop_void_return
@@ -313,7 +313,7 @@ l_OBJC_LABEL_PROTOCOL_$_NSObject
 l_OBJC_PROTOCOL_REFERENCE_$_NSObject
 __TMC9hide_chan11AppDelegate
 _OBJC_CLASS_$__TtC9hide_chan11AppDelegate
-/Users/bookair17/Desktop/hide_chan/hide_chan/AppDelegate.swift
+/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/hide_chan/AppDelegate.swift
 AppDelegate.swift
 _TMaC9hide_chan11AppDelegate
 get_field_types_AppDelegate
@@ -330,29 +330,7 @@ window.set
 _TToFC9hide_chan11AppDelegateg6windowGSqCSo8UIWindow_
 window.get
 __ZL15__ARCLite__loadv
-__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
-__ZL34__arclite_objc_autoreleasePoolPushv
-__ZL33__arclite_objc_autoreleasePoolPopPv
-__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
-__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
-__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
-__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
-__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
-__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
 __ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
-__ZL18add_image_hook_ARCPK11mach_headerl
-__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
-__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
-__ZL21__arclite_object_copyP11objc_objectm
-__ZL21__arclite_objc_retainP11objc_object
-__ZL26__arclite_objc_retainBlockP11objc_object
-__ZL22__arclite_objc_releaseP11objc_object
-__ZL26__arclite_objc_autoreleaseP11objc_object
-__ZL32__arclite_objc_retainAutoreleaseP11objc_object
-__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
-__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
-__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
-__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
 __ZL22add_image_hook_swiftV1PK11mach_headerl
 __ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
 __ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
@@ -396,17 +374,9 @@ __ZL11_class_name
 __ZL32OBJC_$_CLASS_METHODS___ARCLite__
 __ZL17_load_method_name
 __ZL17_load_method_type
-__ZL23NSAutoreleasePool_class
-__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
-__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
-l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
-l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
-l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
 l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
 l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
 l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
-__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
-__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
 __ZL30NSUndoManagerProxy_targetClass
 __ZL29original_NSManagedObject_init
 __ZL40original_NSManagedObject_allocWithEntity
@@ -434,7 +404,7 @@ __ZL25original_protocol_getName
 __ZL36original_objc_copyClassNamesForImage
 __ZL12demangleLock
 __ZL9Demangled
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=274.2 -march=armv7a
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~1093/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=274.2
 /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
 /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
 fixStringForCoreData
@@ -487,6 +457,7 @@ __arclite_NSManagedObject_init
 replaceMethod
 __arclite_NSUndoManagerProxy_isKindOfClass
 add_image_hook_swiftV1
+patch_lazy_pointers
 patch_t<const char **(const char *, unsigned int *)>
 patch_t<const char *(Protocol *)>
 patch_t<const char *(Class)>
@@ -495,51 +466,9 @@ patch_t<Class (const char *)>
 patch_t<void *(id)>
 patch_t<Class (Class, const char *, unsigned long)>
 patch_t<Class (Class, const objc_image_info *)>
-__arclite_objc_storeStrong
-__arclite_objc_release
-__arclite_objc_retain
-__arclite_objc_retainAutoreleasedReturnValue
-__arclite_objc_retainAutoreleaseReturnValue
-__arclite_objc_autoreleaseReturnValue
-__arclite_objc_retainAutorelease
-__arclite_objc_autorelease
-__arclite_objc_retainBlock
-__arclite_object_copy
-fixupCopiedReferences
-_class_getInstanceStart
-alignedInstanceStart
-__arclite_class_usesAutomaticRetainRelease
-classOrSuperClassesUseARR
-__arclite_object_setIvar
-isScannedOffset
-_ivar_getClass
-__arclite_object_setInstanceVariable
-add_image_hook_ARC
-patch_t<void (id *, id)>
-patch_t<id (id)>
-patch_t<void (id)>
-patch_t<id (id, unsigned long)>
-patch_t<void (id, objc_ivar *, id)>
-patch_t<objc_ivar *(id, const char *, void *)>
 __arclite_NSMutableDictionary__setObject_forKeyedSubscript
-__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
-__arclite_NSOrderedSet_objectAtIndexedSubscript
-__arclite_NSDictionary_objectForKeyedSubscript
-__arclite_NSMutableArray_setObject_atIndexedSubscript
-__arclite_NSArray_objectAtIndexedSubscript
-patch_lazy_pointers
-__arclite_objc_autoreleasePoolPop
-__arclite_objc_autoreleasePoolPush
-add_image_hook_autoreleasepool
-patch_t<void (void *)>
-patch_t<void *()>
 __ARCLite__load
 install_swiftV1
-install_ARC
 install_dict_nil_value
 addOrReplaceMethod
 keyedGetter
-install_subscripting
-addMethod
-indexedGetter
-install_autoreleasepool

@@ -7,47 +7,47 @@ provides-member:
 - ["C9hide_chan14ViewController", ""]
 provides-dynamic-lookup:
 - "player"
-- "prevButtonAction"
-- "didReceiveMemoryWarning"
-- "tuner"
-- "generateButtons"
 - "generatePlayer"
+- "prevButtonAction"
+- "centerButtonAction"
 - "generateBackground"
+- "tuner"
+- "viewDidLoad"
 - "nextButtonAction"
 - "adjust_tuner"
-- "viewDidLoad"
-- "centerButtonAction"
+- "didReceiveMemoryWarning"
+- "generateButtons"
 depends-top-level:
 - "ViewController"
 - !private "BooleanLiteralType"
 - !private "-"
-- !private "UIImage"
 - !private "-="
 - !private ">="
-- !private "UIColor"
+- !private "UILabel"
+- !private "CGPoint"
 - "UIViewController"
+- !private "UIColor"
+- !private "CGRect"
 - "AVPlayer"
-- !private "NSError"
 - !private "print"
 - "StringLiteralType"
 - "UIButton"
-- "Array"
-- !private "UIImageView"
-- !private "UILabel"
 - !private "AVAudioSessionCategoryPlayback"
+- !private "UIImageView"
+- !private "NSError"
+- !private "AVPlayerViewController"
+- !private "<"
+- !private "AVPlayerItem"
+- "AssignmentPrecedence"
+- !private "AVURLAsset"
+- !private "=="
+- "URL"
+- !private "AVAudioSession"
 - "Int"
 - !private "/"
-- !private "AVPlayerItem"
-- !private "CGPoint"
-- "AssignmentPrecedence"
-- !private "<"
-- !private "CGRect"
-- !private "=="
-- !private "AVURLAsset"
-- "URL"
-- !private "AVPlayerViewController"
 - !private "+="
-- !private "AVAudioSession"
+- !private "UIImage"
+- "Array"
 depends-member:
 - !private ["CSo7AVAsset", "init"]
 - !private ["PSo29AVAsynchronousKeyValueLoading", "init"]
@@ -107,6 +107,7 @@ depends-member:
 - ["Ps9AnyObject", "prevButtonAction"]
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "replaceCurrentItem"]
+- !private ["Ps9AnyObject", "sendSubview"]
 - !private ["Ps9AnyObject", "setActive"]
 - !private ["Ps9AnyObject", "setCategory"]
 - !private ["Ps9AnyObject", "sharedInstance"]
@@ -165,6 +166,7 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "frame"]
 - !private ["PSo15CALayerDelegate", "init"]
 - !private ["PSo15CALayerDelegate", "isHidden"]
+- !private ["PSo15CALayerDelegate", "sendSubview"]
 - !private ["PSo15CALayerDelegate", "text"]
 - !private ["PSo15CALayerDelegate", "textAlignment"]
 - !private ["PSo15CALayerDelegate", "textColor"]
@@ -223,6 +225,7 @@ depends-member:
 - ["Ps7CVarArg", "prevButtonAction"]
 - !private ["Ps7CVarArg", "print"]
 - !private ["Ps7CVarArg", "replaceCurrentItem"]
+- !private ["Ps7CVarArg", "sendSubview"]
 - !private ["Ps7CVarArg", "setActive"]
 - !private ["Ps7CVarArg", "setCategory"]
 - !private ["Ps7CVarArg", "sharedInstance"]
@@ -296,6 +299,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "prevButtonAction"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - !private ["Ps28CustomDebugStringConvertible", "replaceCurrentItem"]
+- !private ["Ps28CustomDebugStringConvertible", "sendSubview"]
 - !private ["Ps28CustomDebugStringConvertible", "setActive"]
 - !private ["Ps28CustomDebugStringConvertible", "setCategory"]
 - !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
@@ -380,6 +384,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "prevButtonAction"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - !private ["Ps23CustomStringConvertible", "replaceCurrentItem"]
+- !private ["Ps23CustomStringConvertible", "sendSubview"]
 - !private ["Ps23CustomStringConvertible", "setActive"]
 - !private ["Ps23CustomStringConvertible", "setCategory"]
 - !private ["Ps23CustomStringConvertible", "sharedInstance"]
@@ -449,6 +454,7 @@ depends-member:
 - !private ["Ps9Equatable", "print"]
 - !private ["Ps9Equatable", "replaceCurrentItem"]
 - !private ["Ps9Equatable", "right"]
+- !private ["Ps9Equatable", "sendSubview"]
 - !private ["Ps9Equatable", "setActive"]
 - !private ["Ps9Equatable", "setCategory"]
 - !private ["Ps9Equatable", "sharedInstance"]
@@ -527,6 +533,7 @@ depends-member:
 - !private ["Ps8Hashable", "print"]
 - !private ["Ps8Hashable", "replaceCurrentItem"]
 - !private ["Ps8Hashable", "right"]
+- !private ["Ps8Hashable", "sendSubview"]
 - !private ["Ps8Hashable", "setActive"]
 - !private ["Ps8Hashable", "setCategory"]
 - !private ["Ps8Hashable", "sharedInstance"]
@@ -630,6 +637,7 @@ depends-member:
 - ["PSo8NSCoding", "player"]
 - ["PSo8NSCoding", "prevButtonAction"]
 - !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "sendSubview"]
 - ["PSo8NSCoding", "stations"]
 - !private ["PSo8NSCoding", "text"]
 - !private ["PSo8NSCoding", "textAlignment"]
@@ -715,6 +723,7 @@ depends-member:
 - ["CSo8NSObject", "prevButtonAction"]
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "replaceCurrentItem"]
+- !private ["CSo8NSObject", "sendSubview"]
 - !private ["CSo8NSObject", "setActive"]
 - !private ["CSo8NSObject", "setCategory"]
 - !private ["CSo8NSObject", "sharedInstance"]
@@ -764,6 +773,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "prevButtonAction"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "replaceCurrentItem"]
+- !private ["PSo16NSObjectProtocol", "sendSubview"]
 - !private ["PSo16NSObjectProtocol", "setActive"]
 - !private ["PSo16NSObjectProtocol", "setCategory"]
 - !private ["PSo16NSObjectProtocol", "sharedInstance"]
@@ -864,6 +874,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "gif"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "isHidden"]
+- !private ["PSo29UIAccessibilityIdentification", "sendSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo29UIAccessibilityIdentification", "textAlignment"]
 - !private ["PSo29UIAccessibilityIdentification", "textColor"]
@@ -875,6 +886,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "frame"]
 - !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "isHidden"]
+- !private ["PSo12UIAppearance", "sendSubview"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo12UIAppearance", "textAlignment"]
 - !private ["PSo12UIAppearance", "textColor"]
@@ -910,6 +922,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "player"]
 - ["PSo21UIAppearanceContainer", "prevButtonAction"]
 - !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "sendSubview"]
 - ["PSo21UIAppearanceContainer", "stations"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - !private ["PSo21UIAppearanceContainer", "textAlignment"]
@@ -976,6 +989,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "frame"]
 - !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "isHidden"]
+- !private ["PSo17UICoordinateSpace", "sendSubview"]
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo17UICoordinateSpace", "textAlignment"]
 - !private ["PSo17UICoordinateSpace", "textColor"]
@@ -987,6 +1001,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "frame"]
 - !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "isHidden"]
+- !private ["PSo13UIDynamicItem", "sendSubview"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo13UIDynamicItem", "textAlignment"]
 - !private ["PSo13UIDynamicItem", "textColor"]
@@ -1022,6 +1037,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "player"]
 - ["PSo18UIFocusEnvironment", "prevButtonAction"]
 - !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "sendSubview"]
 - ["PSo18UIFocusEnvironment", "stations"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - !private ["PSo18UIFocusEnvironment", "textAlignment"]
@@ -1038,6 +1054,7 @@ depends-member:
 - !private ["PSo11UIFocusItem", "frame"]
 - !private ["PSo11UIFocusItem", "init"]
 - !private ["PSo11UIFocusItem", "isHidden"]
+- !private ["PSo11UIFocusItem", "sendSubview"]
 - !private ["PSo11UIFocusItem", "text"]
 - !private ["PSo11UIFocusItem", "textAlignment"]
 - !private ["PSo11UIFocusItem", "textColor"]
@@ -1089,6 +1106,7 @@ depends-member:
 - ["CSo11UIResponder", "player"]
 - ["CSo11UIResponder", "prevButtonAction"]
 - !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "sendSubview"]
 - ["CSo11UIResponder", "stations"]
 - !private ["CSo11UIResponder", "text"]
 - !private ["CSo11UIResponder", "textAlignment"]
@@ -1128,6 +1146,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "player"]
 - ["PSo30UIResponderStandardEditActions", "prevButtonAction"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "sendSubview"]
 - ["PSo30UIResponderStandardEditActions", "stations"]
 - !private ["PSo30UIResponderStandardEditActions", "text"]
 - !private ["PSo30UIResponderStandardEditActions", "textAlignment"]
@@ -1198,6 +1217,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "player"]
 - ["PSo18UITraitEnvironment", "prevButtonAction"]
 - !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "sendSubview"]
 - ["PSo18UITraitEnvironment", "stations"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - !private ["PSo18UITraitEnvironment", "textAlignment"]
@@ -1214,6 +1234,7 @@ depends-member:
 - !private ["CSo6UIView", "frame"]
 - !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "isHidden"]
+- !private ["CSo6UIView", "sendSubview"]
 - !private ["CSo6UIView", "text"]
 - !private ["CSo6UIView", "textAlignment"]
 - !private ["CSo6UIView", "textColor"]
@@ -1307,6 +1328,7 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "sendSubview"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "textAlignment"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "textColor"]
@@ -1374,6 +1396,7 @@ depends-member:
 - !private ["Ps9_Hashable", "print"]
 - !private ["Ps9_Hashable", "replaceCurrentItem"]
 - !private ["Ps9_Hashable", "right"]
+- !private ["Ps9_Hashable", "sendSubview"]
 - !private ["Ps9_Hashable", "setActive"]
 - !private ["Ps9_Hashable", "setCategory"]
 - !private ["Ps9_Hashable", "sharedInstance"]
@@ -1578,8 +1601,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
-- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/SwiftGifOrigin.swiftmodule/arm64.swiftmodule"
-- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
-- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-umbrella.h"
-- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/module.modulemap"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/SwiftGifOrigin.swiftmodule/arm64.swiftmodule"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-umbrella.h"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphoneos/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/module.modulemap"
 interface-hash: "49b16234b1361a49dadc426785201ba6"

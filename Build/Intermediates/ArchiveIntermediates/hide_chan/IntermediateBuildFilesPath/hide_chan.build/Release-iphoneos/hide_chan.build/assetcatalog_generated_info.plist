@@ -8,7 +8,21 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>AppIcon60x60</string>
+				<string>AppIcon-140x40</string>
+				<string>AppIcon-160x60</string>
+			</array>
+		</dict>
+	</dict>
+	<key>CFBundleIcons~ipad</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>AppIcon-140x40</string>
+				<string>AppIcon-160x60</string>
+				<string>AppIcon-176x76</string>
+				<string>AppIcon-183.5x83.5</string>
 			</array>
 		</dict>
 	</dict>

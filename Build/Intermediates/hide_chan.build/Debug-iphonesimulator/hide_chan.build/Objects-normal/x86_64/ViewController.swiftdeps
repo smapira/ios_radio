@@ -7,47 +7,47 @@ provides-member:
 - ["C9hide_chan14ViewController", ""]
 provides-dynamic-lookup:
 - "viewDidLoad"
-- "didReceiveMemoryWarning"
 - "adjust_tuner"
-- "generateButtons"
-- "tuner"
 - "generateBackground"
-- "player"
-- "generatePlayer"
-- "nextButtonAction"
-- "centerButtonAction"
 - "prevButtonAction"
+- "generateButtons"
+- "nextButtonAction"
+- "player"
+- "tuner"
+- "centerButtonAction"
+- "didReceiveMemoryWarning"
+- "generatePlayer"
 depends-top-level:
-- !private "BooleanLiteralType"
-- !private "<"
-- "Array"
-- !private "UIImage"
-- "URL"
-- !private "UIColor"
-- "Int"
-- "UIButton"
-- !private "CGRect"
-- !private "-"
-- "StringLiteralType"
-- !private "UIImageView"
-- !private "CGPoint"
-- !private "UILabel"
-- "AVPlayer"
-- !private "/"
-- !private ">="
-- !private "AVAudioSession"
 - !private "+="
+- !private "BooleanLiteralType"
+- !private "NSError"
+- !private "AVPlayerItem"
+- "URL"
+- !private "AVAudioSessionCategoryPlayback"
+- !private "AVPlayerViewController"
+- !private "/"
+- !private "<"
+- !private "AVAudioSession"
+- "StringLiteralType"
 - !private "AVURLAsset"
+- "Int"
+- !private "-="
+- !private "UIImage"
+- !private "print"
+- "Array"
+- "UIButton"
+- !private "UILabel"
+- !private "CGPoint"
 - "UIViewController"
 - "AssignmentPrecedence"
-- !private "AVAudioSessionCategoryAmbient"
+- !private ">="
 - !private "=="
-- !private "-="
-- !private "AVPlayerViewController"
-- !private "NSError"
-- !private "print"
-- !private "AVPlayerItem"
+- !private "UIColor"
 - "ViewController"
+- !private "-"
+- !private "UIImageView"
+- !private "CGRect"
+- "AVPlayer"
 depends-member:
 - !private ["CSo7AVAsset", "init"]
 - !private ["PSo29AVAsynchronousKeyValueLoading", "init"]
@@ -70,7 +70,7 @@ depends-member:
 - !private ["CSo10AVURLAsset", "init"]
 - !private ["Ps16AbsoluteValuable", "Stride"]
 - !private ["Ps9AnyObject", "AVAudioSession"]
-- !private ["Ps9AnyObject", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps9AnyObject", "AVAudioSessionCategoryPlayback"]
 - !private ["Ps9AnyObject", "AVPlayer"]
 - !private ["Ps9AnyObject", "AVPlayerItem"]
 - !private ["Ps9AnyObject", "AVPlayerViewController"]
@@ -107,6 +107,7 @@ depends-member:
 - ["Ps9AnyObject", "prevButtonAction"]
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "replaceCurrentItem"]
+- !private ["Ps9AnyObject", "sendSubview"]
 - !private ["Ps9AnyObject", "setActive"]
 - !private ["Ps9AnyObject", "setCategory"]
 - !private ["Ps9AnyObject", "sharedInstance"]
@@ -165,6 +166,7 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "frame"]
 - !private ["PSo15CALayerDelegate", "init"]
 - !private ["PSo15CALayerDelegate", "isHidden"]
+- !private ["PSo15CALayerDelegate", "sendSubview"]
 - !private ["PSo15CALayerDelegate", "text"]
 - !private ["PSo15CALayerDelegate", "textAlignment"]
 - !private ["PSo15CALayerDelegate", "textColor"]
@@ -177,7 +179,7 @@ depends-member:
 - !private ["VSC6CGRect", "init"]
 - !private ["VSC6CGRect", "width"]
 - !private ["Ps7CVarArg", "AVAudioSession"]
-- !private ["Ps7CVarArg", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps7CVarArg", "AVAudioSessionCategoryPlayback"]
 - !private ["Ps7CVarArg", "AVPlayer"]
 - !private ["Ps7CVarArg", "AVPlayerItem"]
 - !private ["Ps7CVarArg", "AVPlayerViewController"]
@@ -223,6 +225,7 @@ depends-member:
 - ["Ps7CVarArg", "prevButtonAction"]
 - !private ["Ps7CVarArg", "print"]
 - !private ["Ps7CVarArg", "replaceCurrentItem"]
+- !private ["Ps7CVarArg", "sendSubview"]
 - !private ["Ps7CVarArg", "setActive"]
 - !private ["Ps7CVarArg", "setCategory"]
 - !private ["Ps7CVarArg", "sharedInstance"]
@@ -251,7 +254,7 @@ depends-member:
 - !private ["Ps10Comparable", "_DisabledRangeIndex"]
 - ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "AVAudioSession"]
-- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionCategoryPlayback"]
 - !private ["Ps28CustomDebugStringConvertible", "AVPlayer"]
 - !private ["Ps28CustomDebugStringConvertible", "AVPlayerItem"]
 - !private ["Ps28CustomDebugStringConvertible", "AVPlayerViewController"]
@@ -296,6 +299,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "prevButtonAction"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - !private ["Ps28CustomDebugStringConvertible", "replaceCurrentItem"]
+- !private ["Ps28CustomDebugStringConvertible", "sendSubview"]
 - !private ["Ps28CustomDebugStringConvertible", "setActive"]
 - !private ["Ps28CustomDebugStringConvertible", "setCategory"]
 - !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
@@ -333,7 +337,7 @@ depends-member:
 - !private ["Ps17CustomReflectable", "subscript"]
 - !private ["Ps17CustomReflectable", "width"]
 - !private ["Ps23CustomStringConvertible", "AVAudioSession"]
-- !private ["Ps23CustomStringConvertible", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionCategoryPlayback"]
 - !private ["Ps23CustomStringConvertible", "AVPlayer"]
 - !private ["Ps23CustomStringConvertible", "AVPlayerItem"]
 - !private ["Ps23CustomStringConvertible", "AVPlayerViewController"]
@@ -380,6 +384,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "prevButtonAction"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - !private ["Ps23CustomStringConvertible", "replaceCurrentItem"]
+- !private ["Ps23CustomStringConvertible", "sendSubview"]
 - !private ["Ps23CustomStringConvertible", "setActive"]
 - !private ["Ps23CustomStringConvertible", "setCategory"]
 - !private ["Ps23CustomStringConvertible", "sharedInstance"]
@@ -406,7 +411,7 @@ depends-member:
 - !private ["Sd", "Stride"]
 - !private ["Sd", "deinit"]
 - !private ["Ps9Equatable", "AVAudioSession"]
-- !private ["Ps9Equatable", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps9Equatable", "AVAudioSessionCategoryPlayback"]
 - !private ["Ps9Equatable", "AVPlayer"]
 - !private ["Ps9Equatable", "AVPlayerItem"]
 - !private ["Ps9Equatable", "AVPlayerViewController"]
@@ -449,6 +454,7 @@ depends-member:
 - !private ["Ps9Equatable", "print"]
 - !private ["Ps9Equatable", "replaceCurrentItem"]
 - !private ["Ps9Equatable", "right"]
+- !private ["Ps9Equatable", "sendSubview"]
 - !private ["Ps9Equatable", "setActive"]
 - !private ["Ps9Equatable", "setCategory"]
 - !private ["Ps9Equatable", "sharedInstance"]
@@ -485,7 +491,7 @@ depends-member:
 - !private ["Sf", "deinit"]
 - !private ["Ps13FloatingPoint", "Stride"]
 - !private ["Ps8Hashable", "AVAudioSession"]
-- !private ["Ps8Hashable", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps8Hashable", "AVAudioSessionCategoryPlayback"]
 - !private ["Ps8Hashable", "AVPlayer"]
 - !private ["Ps8Hashable", "AVPlayerItem"]
 - !private ["Ps8Hashable", "AVPlayerViewController"]
@@ -527,6 +533,7 @@ depends-member:
 - !private ["Ps8Hashable", "print"]
 - !private ["Ps8Hashable", "replaceCurrentItem"]
 - !private ["Ps8Hashable", "right"]
+- !private ["Ps8Hashable", "sendSubview"]
 - !private ["Ps8Hashable", "setActive"]
 - !private ["Ps8Hashable", "setCategory"]
 - !private ["Ps8Hashable", "sharedInstance"]
@@ -596,7 +603,7 @@ depends-member:
 - !private ["Ps16MutableIndexable", "subscript"]
 - ["CSo7NSCoder", "deinit"]
 - !private ["PSo8NSCoding", "AVAudioSession"]
-- !private ["PSo8NSCoding", "AVAudioSessionCategoryAmbient"]
+- !private ["PSo8NSCoding", "AVAudioSessionCategoryPlayback"]
 - !private ["PSo8NSCoding", "AVPlayer"]
 - !private ["PSo8NSCoding", "AVPlayerItem"]
 - !private ["PSo8NSCoding", "AVPlayerViewController"]
@@ -630,6 +637,7 @@ depends-member:
 - ["PSo8NSCoding", "player"]
 - ["PSo8NSCoding", "prevButtonAction"]
 - !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "sendSubview"]
 - ["PSo8NSCoding", "stations"]
 - !private ["PSo8NSCoding", "text"]
 - !private ["PSo8NSCoding", "textAlignment"]
@@ -645,7 +653,7 @@ depends-member:
 - ["CSo7NSError", "deinit"]
 - !private ["CSo7NSError", "localizedDescription"]
 - !private ["PSo26NSExtensionRequestHandling", "AVAudioSession"]
-- !private ["PSo26NSExtensionRequestHandling", "AVAudioSessionCategoryAmbient"]
+- !private ["PSo26NSExtensionRequestHandling", "AVAudioSessionCategoryPlayback"]
 - !private ["PSo26NSExtensionRequestHandling", "AVPlayer"]
 - !private ["PSo26NSExtensionRequestHandling", "AVPlayerItem"]
 - !private ["PSo26NSExtensionRequestHandling", "AVPlayerViewController"]
@@ -676,7 +684,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSObject", "AVAudioSession"]
-- !private ["CSo8NSObject", "AVAudioSessionCategoryAmbient"]
+- !private ["CSo8NSObject", "AVAudioSessionCategoryPlayback"]
 - ["CSo8NSObject", "AVPlayer"]
 - !private ["CSo8NSObject", "AVPlayerItem"]
 - !private ["CSo8NSObject", "AVPlayerViewController"]
@@ -715,6 +723,7 @@ depends-member:
 - ["CSo8NSObject", "prevButtonAction"]
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "replaceCurrentItem"]
+- !private ["CSo8NSObject", "sendSubview"]
 - !private ["CSo8NSObject", "setActive"]
 - !private ["CSo8NSObject", "setCategory"]
 - !private ["CSo8NSObject", "sharedInstance"]
@@ -727,7 +736,7 @@ depends-member:
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["CSo8NSObject", "withSize"]
 - !private ["PSo16NSObjectProtocol", "AVAudioSession"]
-- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategoryAmbient"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategoryPlayback"]
 - !private ["PSo16NSObjectProtocol", "AVPlayer"]
 - !private ["PSo16NSObjectProtocol", "AVPlayerItem"]
 - !private ["PSo16NSObjectProtocol", "AVPlayerViewController"]
@@ -764,6 +773,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "prevButtonAction"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "replaceCurrentItem"]
+- !private ["PSo16NSObjectProtocol", "sendSubview"]
 - !private ["PSo16NSObjectProtocol", "setActive"]
 - !private ["PSo16NSObjectProtocol", "setCategory"]
 - !private ["PSo16NSObjectProtocol", "sharedInstance"]
@@ -864,6 +874,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "gif"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "isHidden"]
+- !private ["PSo29UIAccessibilityIdentification", "sendSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo29UIAccessibilityIdentification", "textAlignment"]
 - !private ["PSo29UIAccessibilityIdentification", "textColor"]
@@ -875,11 +886,12 @@ depends-member:
 - !private ["PSo12UIAppearance", "frame"]
 - !private ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "isHidden"]
+- !private ["PSo12UIAppearance", "sendSubview"]
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo12UIAppearance", "textAlignment"]
 - !private ["PSo12UIAppearance", "textColor"]
 - !private ["PSo21UIAppearanceContainer", "AVAudioSession"]
-- !private ["PSo21UIAppearanceContainer", "AVAudioSessionCategoryAmbient"]
+- !private ["PSo21UIAppearanceContainer", "AVAudioSessionCategoryPlayback"]
 - !private ["PSo21UIAppearanceContainer", "AVPlayer"]
 - !private ["PSo21UIAppearanceContainer", "AVPlayerItem"]
 - !private ["PSo21UIAppearanceContainer", "AVPlayerViewController"]
@@ -910,6 +922,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "player"]
 - ["PSo21UIAppearanceContainer", "prevButtonAction"]
 - !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "sendSubview"]
 - ["PSo21UIAppearanceContainer", "stations"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - !private ["PSo21UIAppearanceContainer", "textAlignment"]
@@ -927,7 +940,7 @@ depends-member:
 - ["CSo7UIColor", "deinit"]
 - !private ["CSo7UIColor", "init"]
 - !private ["PSo18UIContentContainer", "AVAudioSession"]
-- !private ["PSo18UIContentContainer", "AVAudioSessionCategoryAmbient"]
+- !private ["PSo18UIContentContainer", "AVAudioSessionCategoryPlayback"]
 - !private ["PSo18UIContentContainer", "AVPlayer"]
 - !private ["PSo18UIContentContainer", "AVPlayerItem"]
 - !private ["PSo18UIContentContainer", "AVPlayerViewController"]
@@ -976,6 +989,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "frame"]
 - !private ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "isHidden"]
+- !private ["PSo17UICoordinateSpace", "sendSubview"]
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo17UICoordinateSpace", "textAlignment"]
 - !private ["PSo17UICoordinateSpace", "textColor"]
@@ -987,11 +1001,12 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "frame"]
 - !private ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "isHidden"]
+- !private ["PSo13UIDynamicItem", "sendSubview"]
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo13UIDynamicItem", "textAlignment"]
 - !private ["PSo13UIDynamicItem", "textColor"]
 - !private ["PSo18UIFocusEnvironment", "AVAudioSession"]
-- !private ["PSo18UIFocusEnvironment", "AVAudioSessionCategoryAmbient"]
+- !private ["PSo18UIFocusEnvironment", "AVAudioSessionCategoryPlayback"]
 - !private ["PSo18UIFocusEnvironment", "AVPlayer"]
 - !private ["PSo18UIFocusEnvironment", "AVPlayerItem"]
 - !private ["PSo18UIFocusEnvironment", "AVPlayerViewController"]
@@ -1022,6 +1037,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "player"]
 - ["PSo18UIFocusEnvironment", "prevButtonAction"]
 - !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "sendSubview"]
 - ["PSo18UIFocusEnvironment", "stations"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - !private ["PSo18UIFocusEnvironment", "textAlignment"]
@@ -1038,6 +1054,7 @@ depends-member:
 - !private ["PSo11UIFocusItem", "frame"]
 - !private ["PSo11UIFocusItem", "init"]
 - !private ["PSo11UIFocusItem", "isHidden"]
+- !private ["PSo11UIFocusItem", "sendSubview"]
 - !private ["PSo11UIFocusItem", "text"]
 - !private ["PSo11UIFocusItem", "textAlignment"]
 - !private ["PSo11UIFocusItem", "textColor"]
@@ -1056,7 +1073,7 @@ depends-member:
 - !private ["CSo7UILabel", "textAlignment"]
 - !private ["CSo7UILabel", "textColor"]
 - !private ["CSo11UIResponder", "AVAudioSession"]
-- !private ["CSo11UIResponder", "AVAudioSessionCategoryAmbient"]
+- !private ["CSo11UIResponder", "AVAudioSessionCategoryPlayback"]
 - ["CSo11UIResponder", "AVPlayer"]
 - !private ["CSo11UIResponder", "AVPlayerItem"]
 - !private ["CSo11UIResponder", "AVPlayerViewController"]
@@ -1089,6 +1106,7 @@ depends-member:
 - ["CSo11UIResponder", "player"]
 - ["CSo11UIResponder", "prevButtonAction"]
 - !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "sendSubview"]
 - ["CSo11UIResponder", "stations"]
 - !private ["CSo11UIResponder", "text"]
 - !private ["CSo11UIResponder", "textAlignment"]
@@ -1097,7 +1115,7 @@ depends-member:
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo30UIResponderStandardEditActions", "AVAudioSession"]
-- !private ["PSo30UIResponderStandardEditActions", "AVAudioSessionCategoryAmbient"]
+- !private ["PSo30UIResponderStandardEditActions", "AVAudioSessionCategoryPlayback"]
 - !private ["PSo30UIResponderStandardEditActions", "AVPlayer"]
 - !private ["PSo30UIResponderStandardEditActions", "AVPlayerItem"]
 - !private ["PSo30UIResponderStandardEditActions", "AVPlayerViewController"]
@@ -1128,6 +1146,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "player"]
 - ["PSo30UIResponderStandardEditActions", "prevButtonAction"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "sendSubview"]
 - ["PSo30UIResponderStandardEditActions", "stations"]
 - !private ["PSo30UIResponderStandardEditActions", "text"]
 - !private ["PSo30UIResponderStandardEditActions", "textAlignment"]
@@ -1137,7 +1156,7 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["PSo16UIStateRestoring", "AVAudioSession"]
-- !private ["PSo16UIStateRestoring", "AVAudioSessionCategoryAmbient"]
+- !private ["PSo16UIStateRestoring", "AVAudioSessionCategoryPlayback"]
 - !private ["PSo16UIStateRestoring", "AVPlayer"]
 - !private ["PSo16UIStateRestoring", "AVPlayerItem"]
 - !private ["PSo16UIStateRestoring", "AVPlayerViewController"]
@@ -1167,7 +1186,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["PSo18UITraitEnvironment", "AVAudioSession"]
-- !private ["PSo18UITraitEnvironment", "AVAudioSessionCategoryAmbient"]
+- !private ["PSo18UITraitEnvironment", "AVAudioSessionCategoryPlayback"]
 - !private ["PSo18UITraitEnvironment", "AVPlayer"]
 - !private ["PSo18UITraitEnvironment", "AVPlayerItem"]
 - !private ["PSo18UITraitEnvironment", "AVPlayerViewController"]
@@ -1198,6 +1217,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "player"]
 - ["PSo18UITraitEnvironment", "prevButtonAction"]
 - !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "sendSubview"]
 - ["PSo18UITraitEnvironment", "stations"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - !private ["PSo18UITraitEnvironment", "textAlignment"]
@@ -1214,11 +1234,12 @@ depends-member:
 - !private ["CSo6UIView", "frame"]
 - !private ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "isHidden"]
+- !private ["CSo6UIView", "sendSubview"]
 - !private ["CSo6UIView", "text"]
 - !private ["CSo6UIView", "textAlignment"]
 - !private ["CSo6UIView", "textColor"]
 - !private ["CSo16UIViewController", "AVAudioSession"]
-- !private ["CSo16UIViewController", "AVAudioSessionCategoryAmbient"]
+- !private ["CSo16UIViewController", "AVAudioSessionCategoryPlayback"]
 - ["CSo16UIViewController", "AVPlayer"]
 - !private ["CSo16UIViewController", "AVPlayerItem"]
 - !private ["CSo16UIViewController", "AVPlayerViewController"]
@@ -1259,7 +1280,7 @@ depends-member:
 - ["V10Foundation3URL", "init"]
 - !private ["Sc", "deinit"]
 - !private ["C9hide_chan14ViewController", "AVAudioSession"]
-- !private ["C9hide_chan14ViewController", "AVAudioSessionCategoryAmbient"]
+- !private ["C9hide_chan14ViewController", "AVAudioSessionCategoryPlayback"]
 - ["C9hide_chan14ViewController", "AVPlayer"]
 - !private ["C9hide_chan14ViewController", "AVPlayerItem"]
 - !private ["C9hide_chan14ViewController", "AVPlayerViewController"]
@@ -1307,6 +1328,7 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "isHidden"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "sendSubview"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "textAlignment"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "textColor"]
@@ -1332,7 +1354,7 @@ depends-member:
 - !private ["Ps26_ExpressibleByImageLiteral", "gif"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "AVAudioSession"]
-- !private ["Ps9_Hashable", "AVAudioSessionCategoryAmbient"]
+- !private ["Ps9_Hashable", "AVAudioSessionCategoryPlayback"]
 - !private ["Ps9_Hashable", "AVPlayer"]
 - !private ["Ps9_Hashable", "AVPlayerItem"]
 - !private ["Ps9_Hashable", "AVPlayerViewController"]
@@ -1374,6 +1396,7 @@ depends-member:
 - !private ["Ps9_Hashable", "print"]
 - !private ["Ps9_Hashable", "replaceCurrentItem"]
 - !private ["Ps9_Hashable", "right"]
+- !private ["Ps9_Hashable", "sendSubview"]
 - !private ["Ps9_Hashable", "setActive"]
 - !private ["Ps9_Hashable", "setCategory"]
 - !private ["Ps9_Hashable", "sharedInstance"]
@@ -1578,8 +1601,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
-- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/SwiftGifOrigin.swiftmodule/x86_64.swiftmodule"
-- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
-- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-umbrella.h"
-- "/Users/bookair17/Desktop/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/module.modulemap"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/SwiftGifOrigin.swiftmodule/x86_64.swiftmodule"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-Swift.h"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Headers/SwiftGifOrigin-umbrella.h"
+- "/Users/bookair17/Documents/SourceCode/Company/stash/hide_chan/Build/Products/Debug-iphonesimulator/SwiftGifOrigin/SwiftGifOrigin.framework/Modules/module.modulemap"
 interface-hash: "49b16234b1361a49dadc426785201ba6"
